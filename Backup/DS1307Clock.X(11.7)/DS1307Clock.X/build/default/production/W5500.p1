@@ -1,0 +1,2934 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"2154 C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 2154:     struct {
+[s S78 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S78 . TRISD0 TRISD1 TRISD2 TRISD3 TRISD4 TRISD5 TRISD6 TRISD7 ]
+"2164
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 2164:     struct {
+[s S79 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S79 . RD0 RD1 RD2 RD3 RD4 RD5 RD6 RD7 ]
+"2153
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 2153: typedef union {
+[u S77 `S78 1 `S79 1 ]
+[n S77 . . . ]
+"2175
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 2175: extern volatile TRISDbits_t TRISDbits __attribute__((address(0xF95)));
+[v _TRISDbits `VS77 ~T0 @X0 0 e@3989 ]
+"306 ./W5500.h
+[; ;./W5500.h: 306:     void WriteNByteW5500( uint16_t addr, uint8_t *write_datas, uint8_t data_size );
+[v _WriteNByteW5500 `(v ~T0 @X0 0 ef3`us`*uc`uc ]
+[v F202 `(v ~T0 @X0 1 tf1`ul ]
+"12 C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\builtins.h
+[v __delay `JF202 ~T0 @X0 0 e ]
+[p i __delay ]
+"307 ./W5500.h
+[; ;./W5500.h: 307:     void WriteByteW5500Socket( uint8_t socket_number, uint16_t addr, uint8_t write_data );
+[v _WriteByteW5500Socket `(v ~T0 @X0 0 ef3`uc`us`uc ]
+"638 C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 638:     struct {
+[s S29 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S29 . RD0 RD1 RD2 RD3 RD4 RD5 RD6 RD7 ]
+"648
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 648:     struct {
+[s S30 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S30 . PSP0 PSP1 PSP2 PSP3 PSP4 PSP5 PSP6 PSP7 ]
+"658
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 658:     struct {
+[s S31 :5 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S31 . . P1B P1C P1D ]
+"664
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 664:     struct {
+[s S32 :7 `uc 1 :1 `uc 1 ]
+[n S32 . . SS2 ]
+"637
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 637: typedef union {
+[u S28 `S29 1 `S30 1 `S31 1 `S32 1 ]
+[n S28 . . . . . ]
+"669
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 669: extern volatile PORTDbits_t PORTDbits __attribute__((address(0xF83)));
+[v _PORTDbits `VS28 ~T0 @X0 0 e@3971 ]
+"8 C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\builtins.h
+[v ___nop `(v ~T0 @X0 0 ef ]
+[p i ___nop ]
+"314 ./W5500.h
+[; ;./W5500.h: 314:     void WriteShortSPI( uint16_t data );
+[v _WriteShortSPI `(v ~T0 @X0 0 ef1`us ]
+"313
+[; ;./W5500.h: 313:     void WriteByteSPI( uint8_t data );
+[v _WriteByteSPI `(v ~T0 @X0 0 ef1`uc ]
+"315
+[; ;./W5500.h: 315:     uint8_t ReadByteSPI();
+[v _ReadByteSPI `(uc ~T0 @X0 0 e? ]
+"54 C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 54: __asm("PORTA equ 0F80h");
+[; <" PORTA equ 0F80h ;# ">
+"273
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 273: __asm("PORTB equ 0F81h");
+[; <" PORTB equ 0F81h ;# ">
+"452
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 452: __asm("PORTC equ 0F82h");
+[; <" PORTC equ 0F82h ;# ">
+"634
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 634: __asm("PORTD equ 0F83h");
+[; <" PORTD equ 0F83h ;# ">
+"776
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 776: __asm("PORTE equ 0F84h");
+[; <" PORTE equ 0F84h ;# ">
+"979
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 979: __asm("LATA equ 0F89h");
+[; <" LATA equ 0F89h ;# ">
+"1091
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 1091: __asm("LATB equ 0F8Ah");
+[; <" LATB equ 0F8Ah ;# ">
+"1203
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 1203: __asm("LATC equ 0F8Bh");
+[; <" LATC equ 0F8Bh ;# ">
+"1315
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 1315: __asm("LATD equ 0F8Ch");
+[; <" LATD equ 0F8Ch ;# ">
+"1427
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 1427: __asm("LATE equ 0F8Dh");
+[; <" LATE equ 0F8Dh ;# ">
+"1479
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 1479: __asm("TRISA equ 0F92h");
+[; <" TRISA equ 0F92h ;# ">
+"1484
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 1484: __asm("DDRA equ 0F92h");
+[; <" DDRA equ 0F92h ;# ">
+"1701
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 1701: __asm("TRISB equ 0F93h");
+[; <" TRISB equ 0F93h ;# ">
+"1706
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 1706: __asm("DDRB equ 0F93h");
+[; <" DDRB equ 0F93h ;# ">
+"1923
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 1923: __asm("TRISC equ 0F94h");
+[; <" TRISC equ 0F94h ;# ">
+"1928
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 1928: __asm("DDRC equ 0F94h");
+[; <" DDRC equ 0F94h ;# ">
+"2145
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 2145: __asm("TRISD equ 0F95h");
+[; <" TRISD equ 0F95h ;# ">
+"2150
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 2150: __asm("DDRD equ 0F95h");
+[; <" DDRD equ 0F95h ;# ">
+"2367
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 2367: __asm("TRISE equ 0F96h");
+[; <" TRISE equ 0F96h ;# ">
+"2372
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 2372: __asm("DDRE equ 0F96h");
+[; <" DDRE equ 0F96h ;# ">
+"2531
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 2531: __asm("OSCTUNE equ 0F9Bh");
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"2596
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 2596: __asm("PIE1 equ 0F9Dh");
+[; <" PIE1 equ 0F9Dh ;# ">
+"2673
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 2673: __asm("PIR1 equ 0F9Eh");
+[; <" PIR1 equ 0F9Eh ;# ">
+"2750
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 2750: __asm("IPR1 equ 0F9Fh");
+[; <" IPR1 equ 0F9Fh ;# ">
+"2827
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 2827: __asm("PIE2 equ 0FA0h");
+[; <" PIE2 equ 0FA0h ;# ">
+"2893
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 2893: __asm("PIR2 equ 0FA1h");
+[; <" PIR2 equ 0FA1h ;# ">
+"2959
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 2959: __asm("IPR2 equ 0FA2h");
+[; <" IPR2 equ 0FA2h ;# ">
+"3025
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3025: __asm("EECON1 equ 0FA6h");
+[; <" EECON1 equ 0FA6h ;# ">
+"3091
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3091: __asm("EECON2 equ 0FA7h");
+[; <" EECON2 equ 0FA7h ;# ">
+"3098
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3098: __asm("EEDATA equ 0FA8h");
+[; <" EEDATA equ 0FA8h ;# ">
+"3105
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3105: __asm("EEADR equ 0FA9h");
+[; <" EEADR equ 0FA9h ;# ">
+"3112
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3112: __asm("RCSTA equ 0FABh");
+[; <" RCSTA equ 0FABh ;# ">
+"3117
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3117: __asm("RCSTA1 equ 0FABh");
+[; <" RCSTA1 equ 0FABh ;# ">
+"3322
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3322: __asm("TXSTA equ 0FACh");
+[; <" TXSTA equ 0FACh ;# ">
+"3327
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3327: __asm("TXSTA1 equ 0FACh");
+[; <" TXSTA1 equ 0FACh ;# ">
+"3578
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3578: __asm("TXREG equ 0FADh");
+[; <" TXREG equ 0FADh ;# ">
+"3583
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3583: __asm("TXREG1 equ 0FADh");
+[; <" TXREG1 equ 0FADh ;# ">
+"3590
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3590: __asm("RCREG equ 0FAEh");
+[; <" RCREG equ 0FAEh ;# ">
+"3595
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3595: __asm("RCREG1 equ 0FAEh");
+[; <" RCREG1 equ 0FAEh ;# ">
+"3602
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3602: __asm("SPBRG equ 0FAFh");
+[; <" SPBRG equ 0FAFh ;# ">
+"3607
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3607: __asm("SPBRG1 equ 0FAFh");
+[; <" SPBRG1 equ 0FAFh ;# ">
+"3614
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3614: __asm("SPBRGH equ 0FB0h");
+[; <" SPBRGH equ 0FB0h ;# ">
+"3621
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3621: __asm("T3CON equ 0FB1h");
+[; <" T3CON equ 0FB1h ;# ">
+"3733
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3733: __asm("TMR3 equ 0FB2h");
+[; <" TMR3 equ 0FB2h ;# ">
+"3740
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3740: __asm("TMR3L equ 0FB2h");
+[; <" TMR3L equ 0FB2h ;# ">
+"3747
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3747: __asm("TMR3H equ 0FB3h");
+[; <" TMR3H equ 0FB3h ;# ">
+"3754
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3754: __asm("CMCON equ 0FB4h");
+[; <" CMCON equ 0FB4h ;# ">
+"3844
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3844: __asm("CVRCON equ 0FB5h");
+[; <" CVRCON equ 0FB5h ;# ">
+"3923
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3923: __asm("ECCP1AS equ 0FB6h");
+[; <" ECCP1AS equ 0FB6h ;# ">
+"3928
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 3928: __asm("ECCPAS equ 0FB6h");
+[; <" ECCPAS equ 0FB6h ;# ">
+"4085
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 4085: __asm("PWM1CON equ 0FB7h");
+[; <" PWM1CON equ 0FB7h ;# ">
+"4090
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 4090: __asm("ECCP1DEL equ 0FB7h");
+[; <" ECCP1DEL equ 0FB7h ;# ">
+"4223
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 4223: __asm("BAUDCON equ 0FB8h");
+[; <" BAUDCON equ 0FB8h ;# ">
+"4228
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 4228: __asm("BAUDCTL equ 0FB8h");
+[; <" BAUDCTL equ 0FB8h ;# ">
+"4403
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 4403: __asm("CCP2CON equ 0FBAh");
+[; <" CCP2CON equ 0FBAh ;# ">
+"4482
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 4482: __asm("CCPR2 equ 0FBBh");
+[; <" CCPR2 equ 0FBBh ;# ">
+"4489
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 4489: __asm("CCPR2L equ 0FBBh");
+[; <" CCPR2L equ 0FBBh ;# ">
+"4496
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 4496: __asm("CCPR2H equ 0FBCh");
+[; <" CCPR2H equ 0FBCh ;# ">
+"4503
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 4503: __asm("CCP1CON equ 0FBDh");
+[; <" CCP1CON equ 0FBDh ;# ">
+"4600
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 4600: __asm("CCPR1 equ 0FBEh");
+[; <" CCPR1 equ 0FBEh ;# ">
+"4607
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 4607: __asm("CCPR1L equ 0FBEh");
+[; <" CCPR1L equ 0FBEh ;# ">
+"4614
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 4614: __asm("CCPR1H equ 0FBFh");
+[; <" CCPR1H equ 0FBFh ;# ">
+"4621
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 4621: __asm("ADCON2 equ 0FC0h");
+[; <" ADCON2 equ 0FC0h ;# ">
+"4692
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 4692: __asm("ADCON1 equ 0FC1h");
+[; <" ADCON1 equ 0FC1h ;# ">
+"4777
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 4777: __asm("ADCON0 equ 0FC2h");
+[; <" ADCON0 equ 0FC2h ;# ">
+"4896
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 4896: __asm("ADRES equ 0FC3h");
+[; <" ADRES equ 0FC3h ;# ">
+"4903
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 4903: __asm("ADRESL equ 0FC3h");
+[; <" ADRESL equ 0FC3h ;# ">
+"4910
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 4910: __asm("ADRESH equ 0FC4h");
+[; <" ADRESH equ 0FC4h ;# ">
+"4917
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 4917: __asm("SSPCON2 equ 0FC5h");
+[; <" SSPCON2 equ 0FC5h ;# ">
+"5012
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 5012: __asm("SSPCON1 equ 0FC6h");
+[; <" SSPCON1 equ 0FC6h ;# ">
+"5082
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 5082: __asm("SSPSTAT equ 0FC7h");
+[; <" SSPSTAT equ 0FC7h ;# ">
+"5303
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 5303: __asm("SSPADD equ 0FC8h");
+[; <" SSPADD equ 0FC8h ;# ">
+"5310
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 5310: __asm("SSPBUF equ 0FC9h");
+[; <" SSPBUF equ 0FC9h ;# ">
+"5317
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 5317: __asm("T2CON equ 0FCAh");
+[; <" T2CON equ 0FCAh ;# ">
+"5415
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 5415: __asm("PR2 equ 0FCBh");
+[; <" PR2 equ 0FCBh ;# ">
+"5420
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 5420: __asm("MEMCON equ 0FCBh");
+[; <" MEMCON equ 0FCBh ;# ">
+"5525
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 5525: __asm("TMR2 equ 0FCCh");
+[; <" TMR2 equ 0FCCh ;# ">
+"5532
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 5532: __asm("T1CON equ 0FCDh");
+[; <" T1CON equ 0FCDh ;# ">
+"5635
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 5635: __asm("TMR1 equ 0FCEh");
+[; <" TMR1 equ 0FCEh ;# ">
+"5642
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 5642: __asm("TMR1L equ 0FCEh");
+[; <" TMR1L equ 0FCEh ;# ">
+"5649
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 5649: __asm("TMR1H equ 0FCFh");
+[; <" TMR1H equ 0FCFh ;# ">
+"5656
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 5656: __asm("RCON equ 0FD0h");
+[; <" RCON equ 0FD0h ;# ">
+"5789
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 5789: __asm("WDTCON equ 0FD1h");
+[; <" WDTCON equ 0FD1h ;# ">
+"5817
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 5817: __asm("HLVDCON equ 0FD2h");
+[; <" HLVDCON equ 0FD2h ;# ">
+"5822
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 5822: __asm("LVDCON equ 0FD2h");
+[; <" LVDCON equ 0FD2h ;# ">
+"6087
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6087: __asm("OSCCON equ 0FD3h");
+[; <" OSCCON equ 0FD3h ;# ">
+"6170
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6170: __asm("T0CON equ 0FD5h");
+[; <" T0CON equ 0FD5h ;# ">
+"6253
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6253: __asm("TMR0 equ 0FD6h");
+[; <" TMR0 equ 0FD6h ;# ">
+"6260
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6260: __asm("TMR0L equ 0FD6h");
+[; <" TMR0L equ 0FD6h ;# ">
+"6267
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6267: __asm("TMR0H equ 0FD7h");
+[; <" TMR0H equ 0FD7h ;# ">
+"6274
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6274: __asm("STATUS equ 0FD8h");
+[; <" STATUS equ 0FD8h ;# ">
+"6345
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6345: __asm("FSR2 equ 0FD9h");
+[; <" FSR2 equ 0FD9h ;# ">
+"6352
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6352: __asm("FSR2L equ 0FD9h");
+[; <" FSR2L equ 0FD9h ;# ">
+"6359
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6359: __asm("FSR2H equ 0FDAh");
+[; <" FSR2H equ 0FDAh ;# ">
+"6366
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6366: __asm("PLUSW2 equ 0FDBh");
+[; <" PLUSW2 equ 0FDBh ;# ">
+"6373
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6373: __asm("PREINC2 equ 0FDCh");
+[; <" PREINC2 equ 0FDCh ;# ">
+"6380
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6380: __asm("POSTDEC2 equ 0FDDh");
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"6387
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6387: __asm("POSTINC2 equ 0FDEh");
+[; <" POSTINC2 equ 0FDEh ;# ">
+"6394
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6394: __asm("INDF2 equ 0FDFh");
+[; <" INDF2 equ 0FDFh ;# ">
+"6401
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6401: __asm("BSR equ 0FE0h");
+[; <" BSR equ 0FE0h ;# ">
+"6408
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6408: __asm("FSR1 equ 0FE1h");
+[; <" FSR1 equ 0FE1h ;# ">
+"6415
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6415: __asm("FSR1L equ 0FE1h");
+[; <" FSR1L equ 0FE1h ;# ">
+"6422
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6422: __asm("FSR1H equ 0FE2h");
+[; <" FSR1H equ 0FE2h ;# ">
+"6429
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6429: __asm("PLUSW1 equ 0FE3h");
+[; <" PLUSW1 equ 0FE3h ;# ">
+"6436
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6436: __asm("PREINC1 equ 0FE4h");
+[; <" PREINC1 equ 0FE4h ;# ">
+"6443
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6443: __asm("POSTDEC1 equ 0FE5h");
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"6450
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6450: __asm("POSTINC1 equ 0FE6h");
+[; <" POSTINC1 equ 0FE6h ;# ">
+"6457
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6457: __asm("INDF1 equ 0FE7h");
+[; <" INDF1 equ 0FE7h ;# ">
+"6464
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6464: __asm("WREG equ 0FE8h");
+[; <" WREG equ 0FE8h ;# ">
+"6476
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6476: __asm("FSR0 equ 0FE9h");
+[; <" FSR0 equ 0FE9h ;# ">
+"6483
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6483: __asm("FSR0L equ 0FE9h");
+[; <" FSR0L equ 0FE9h ;# ">
+"6490
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6490: __asm("FSR0H equ 0FEAh");
+[; <" FSR0H equ 0FEAh ;# ">
+"6497
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6497: __asm("PLUSW0 equ 0FEBh");
+[; <" PLUSW0 equ 0FEBh ;# ">
+"6504
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6504: __asm("PREINC0 equ 0FECh");
+[; <" PREINC0 equ 0FECh ;# ">
+"6511
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6511: __asm("POSTDEC0 equ 0FEDh");
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"6518
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6518: __asm("POSTINC0 equ 0FEEh");
+[; <" POSTINC0 equ 0FEEh ;# ">
+"6525
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6525: __asm("INDF0 equ 0FEFh");
+[; <" INDF0 equ 0FEFh ;# ">
+"6532
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6532: __asm("INTCON3 equ 0FF0h");
+[; <" INTCON3 equ 0FF0h ;# ">
+"6624
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6624: __asm("INTCON2 equ 0FF1h");
+[; <" INTCON2 equ 0FF1h ;# ">
+"6694
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6694: __asm("INTCON equ 0FF2h");
+[; <" INTCON equ 0FF2h ;# ">
+"6811
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6811: __asm("PROD equ 0FF3h");
+[; <" PROD equ 0FF3h ;# ">
+"6818
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6818: __asm("PRODL equ 0FF3h");
+[; <" PRODL equ 0FF3h ;# ">
+"6825
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6825: __asm("PRODH equ 0FF4h");
+[; <" PRODH equ 0FF4h ;# ">
+"6832
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6832: __asm("TABLAT equ 0FF5h");
+[; <" TABLAT equ 0FF5h ;# ">
+"6841
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6841: __asm("TBLPTR equ 0FF6h");
+[; <" TBLPTR equ 0FF6h ;# ">
+"6848
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6848: __asm("TBLPTRL equ 0FF6h");
+[; <" TBLPTRL equ 0FF6h ;# ">
+"6855
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6855: __asm("TBLPTRH equ 0FF7h");
+[; <" TBLPTRH equ 0FF7h ;# ">
+"6862
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6862: __asm("TBLPTRU equ 0FF8h");
+[; <" TBLPTRU equ 0FF8h ;# ">
+"6871
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6871: __asm("PCLAT equ 0FF9h");
+[; <" PCLAT equ 0FF9h ;# ">
+"6878
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6878: __asm("PC equ 0FF9h");
+[; <" PC equ 0FF9h ;# ">
+"6885
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6885: __asm("PCL equ 0FF9h");
+[; <" PCL equ 0FF9h ;# ">
+"6892
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6892: __asm("PCLATH equ 0FFAh");
+[; <" PCLATH equ 0FFAh ;# ">
+"6899
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6899: __asm("PCLATU equ 0FFBh");
+[; <" PCLATU equ 0FFBh ;# ">
+"6906
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6906: __asm("STKPTR equ 0FFCh");
+[; <" STKPTR equ 0FFCh ;# ">
+"6980
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6980: __asm("TOS equ 0FFDh");
+[; <" TOS equ 0FFDh ;# ">
+"6987
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6987: __asm("TOSL equ 0FFDh");
+[; <" TOSL equ 0FFDh ;# ">
+"6994
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 6994: __asm("TOSH equ 0FFEh");
+[; <" TOSH equ 0FFEh ;# ">
+"7001
+[; ;C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4520.h: 7001: __asm("TOSU equ 0FFFh");
+[; <" TOSU equ 0FFFh ;# ">
+"240 ./W5500.h
+[; ;./W5500.h: 240:     unsigned char Gateway_IP[4];
+[v _Gateway_IP `uc ~T0 @X0 -> 4 `i e ]
+"241
+[; ;./W5500.h: 241:     unsigned char Sub_Mask[4];
+[v _Sub_Mask `uc ~T0 @X0 -> 4 `i e ]
+"242
+[; ;./W5500.h: 242:     unsigned char Phy_Addr[6];
+[v _Phy_Addr `uc ~T0 @X0 -> 6 `i e ]
+"243
+[; ;./W5500.h: 243:     unsigned char IP_Addr[4];
+[v _IP_Addr `uc ~T0 @X0 -> 4 `i e ]
+"245
+[; ;./W5500.h: 245:     unsigned char S0_Port[2];
+[v _S0_Port `uc ~T0 @X0 -> 2 `i e ]
+"246
+[; ;./W5500.h: 246:     unsigned char S1_Port[2];
+[v _S1_Port `uc ~T0 @X0 -> 2 `i e ]
+"247
+[; ;./W5500.h: 247:     unsigned char S2_Port[2];
+[v _S2_Port `uc ~T0 @X0 -> 2 `i e ]
+"248
+[; ;./W5500.h: 248:     unsigned char S3_Port[2];
+[v _S3_Port `uc ~T0 @X0 -> 2 `i e ]
+"249
+[; ;./W5500.h: 249:     unsigned char S4_Port[2];
+[v _S4_Port `uc ~T0 @X0 -> 2 `i e ]
+"250
+[; ;./W5500.h: 250:     unsigned char S5_Port[2];
+[v _S5_Port `uc ~T0 @X0 -> 2 `i e ]
+"251
+[; ;./W5500.h: 251:     unsigned char S6_Port[2];
+[v _S6_Port `uc ~T0 @X0 -> 2 `i e ]
+"252
+[; ;./W5500.h: 252:     unsigned char S7_Port[2];
+[v _S7_Port `uc ~T0 @X0 -> 2 `i e ]
+"254
+[; ;./W5500.h: 254:     unsigned char S0_DIP[4];
+[v _S0_DIP `uc ~T0 @X0 -> 4 `i e ]
+"255
+[; ;./W5500.h: 255:     unsigned char S1_DIP[4];
+[v _S1_DIP `uc ~T0 @X0 -> 4 `i e ]
+"256
+[; ;./W5500.h: 256:     unsigned char S2_DIP[4];
+[v _S2_DIP `uc ~T0 @X0 -> 4 `i e ]
+"257
+[; ;./W5500.h: 257:     unsigned char S3_DIP[4];
+[v _S3_DIP `uc ~T0 @X0 -> 4 `i e ]
+"258
+[; ;./W5500.h: 258:     unsigned char S4_DIP[4];
+[v _S4_DIP `uc ~T0 @X0 -> 4 `i e ]
+"259
+[; ;./W5500.h: 259:     unsigned char S5_DIP[4];
+[v _S5_DIP `uc ~T0 @X0 -> 4 `i e ]
+"260
+[; ;./W5500.h: 260:     unsigned char S6_DIP[4];
+[v _S6_DIP `uc ~T0 @X0 -> 4 `i e ]
+"261
+[; ;./W5500.h: 261:     unsigned char S7_DIP[4];
+[v _S7_DIP `uc ~T0 @X0 -> 4 `i e ]
+"263
+[; ;./W5500.h: 263:     unsigned char S0_DPort[2];
+[v _S0_DPort `uc ~T0 @X0 -> 2 `i e ]
+"264
+[; ;./W5500.h: 264:     unsigned char S1_DPort[2];
+[v _S1_DPort `uc ~T0 @X0 -> 2 `i e ]
+"265
+[; ;./W5500.h: 265:     unsigned char S2_DPort[2];
+[v _S2_DPort `uc ~T0 @X0 -> 2 `i e ]
+"266
+[; ;./W5500.h: 266:     unsigned char S3_DPort[2];
+[v _S3_DPort `uc ~T0 @X0 -> 2 `i e ]
+"267
+[; ;./W5500.h: 267:     unsigned char S4_DPort[2];
+[v _S4_DPort `uc ~T0 @X0 -> 2 `i e ]
+"268
+[; ;./W5500.h: 268:     unsigned char S5_DPort[2];
+[v _S5_DPort `uc ~T0 @X0 -> 2 `i e ]
+"269
+[; ;./W5500.h: 269:     unsigned char S6_DPort[2];
+[v _S6_DPort `uc ~T0 @X0 -> 2 `i e ]
+"270
+[; ;./W5500.h: 270:     unsigned char S7_DPort[2];
+[v _S7_DPort `uc ~T0 @X0 -> 2 `i e ]
+"272
+[; ;./W5500.h: 272:     unsigned char UDP_DIPR[4];
+[v _UDP_DIPR `uc ~T0 @X0 -> 4 `i e ]
+"273
+[; ;./W5500.h: 273:     unsigned char UDP_DPORT[2];
+[v _UDP_DPORT `uc ~T0 @X0 -> 2 `i e ]
+"276
+[; ;./W5500.h: 276:     unsigned char S0_Mode =3;
+[v _S0_Mode `uc ~T0 @X0 1 e ]
+[i _S0_Mode
+-> -> 3 `i `uc
+]
+"277
+[; ;./W5500.h: 277:     unsigned char S1_Mode =3;
+[v _S1_Mode `uc ~T0 @X0 1 e ]
+[i _S1_Mode
+-> -> 3 `i `uc
+]
+"278
+[; ;./W5500.h: 278:     unsigned char S2_Mode =3;
+[v _S2_Mode `uc ~T0 @X0 1 e ]
+[i _S2_Mode
+-> -> 3 `i `uc
+]
+"279
+[; ;./W5500.h: 279:     unsigned char S3_Mode =3;
+[v _S3_Mode `uc ~T0 @X0 1 e ]
+[i _S3_Mode
+-> -> 3 `i `uc
+]
+"280
+[; ;./W5500.h: 280:     unsigned char S4_Mode =3;
+[v _S4_Mode `uc ~T0 @X0 1 e ]
+[i _S4_Mode
+-> -> 3 `i `uc
+]
+"281
+[; ;./W5500.h: 281:     unsigned char S5_Mode =3;
+[v _S5_Mode `uc ~T0 @X0 1 e ]
+[i _S5_Mode
+-> -> 3 `i `uc
+]
+"282
+[; ;./W5500.h: 282:     unsigned char S6_Mode =3;
+[v _S6_Mode `uc ~T0 @X0 1 e ]
+[i _S6_Mode
+-> -> 3 `i `uc
+]
+"283
+[; ;./W5500.h: 283:     unsigned char S7_Mode =3;
+[v _S7_Mode `uc ~T0 @X0 1 e ]
+[i _S7_Mode
+-> -> 3 `i `uc
+]
+"285
+[; ;./W5500.h: 285:     unsigned char S0_State =0;
+[v _S0_State `uc ~T0 @X0 1 e ]
+[i _S0_State
+-> -> 0 `i `uc
+]
+"286
+[; ;./W5500.h: 286:     unsigned char S1_State =0;
+[v _S1_State `uc ~T0 @X0 1 e ]
+[i _S1_State
+-> -> 0 `i `uc
+]
+"287
+[; ;./W5500.h: 287:     unsigned char S2_State =0;
+[v _S2_State `uc ~T0 @X0 1 e ]
+[i _S2_State
+-> -> 0 `i `uc
+]
+"288
+[; ;./W5500.h: 288:     unsigned char S3_State =0;
+[v _S3_State `uc ~T0 @X0 1 e ]
+[i _S3_State
+-> -> 0 `i `uc
+]
+"289
+[; ;./W5500.h: 289:     unsigned char S4_State =0;
+[v _S4_State `uc ~T0 @X0 1 e ]
+[i _S4_State
+-> -> 0 `i `uc
+]
+"290
+[; ;./W5500.h: 290:     unsigned char S5_State =0;
+[v _S5_State `uc ~T0 @X0 1 e ]
+[i _S5_State
+-> -> 0 `i `uc
+]
+"291
+[; ;./W5500.h: 291:     unsigned char S6_State =0;
+[v _S6_State `uc ~T0 @X0 1 e ]
+[i _S6_State
+-> -> 0 `i `uc
+]
+"292
+[; ;./W5500.h: 292:     unsigned char S7_State =0;
+[v _S7_State `uc ~T0 @X0 1 e ]
+[i _S7_State
+-> -> 0 `i `uc
+]
+"294
+[; ;./W5500.h: 294:     unsigned char S0_Data;
+[v _S0_Data `uc ~T0 @X0 1 e ]
+"295
+[; ;./W5500.h: 295:     unsigned char S1_Data;
+[v _S1_Data `uc ~T0 @X0 1 e ]
+"296
+[; ;./W5500.h: 296:     unsigned char S2_Data;
+[v _S2_Data `uc ~T0 @X0 1 e ]
+"297
+[; ;./W5500.h: 297:     unsigned char S3_Data;
+[v _S3_Data `uc ~T0 @X0 1 e ]
+"298
+[; ;./W5500.h: 298:     unsigned char S4_Data;
+[v _S4_Data `uc ~T0 @X0 1 e ]
+"299
+[; ;./W5500.h: 299:     unsigned char S5_Data;
+[v _S5_Data `uc ~T0 @X0 1 e ]
+"300
+[; ;./W5500.h: 300:     unsigned char S6_Data;
+[v _S6_Data `uc ~T0 @X0 1 e ]
+"301
+[; ;./W5500.h: 301:     unsigned char S7_Data;
+[v _S7_Data `uc ~T0 @X0 1 e ]
+"303
+[; ;./W5500.h: 303:     unsigned char W5500_Interrupt;
+[v _W5500_Interrupt `uc ~T0 @X0 1 e ]
+"5 W5500.c
+[; ;W5500.c: 5: void OpenW5500(){
+[v _OpenW5500 `(v ~T0 @X0 1 ef ]
+{
+[e :U _OpenW5500 ]
+[f ]
+"7
+[; ;W5500.c: 7:     TRISDbits.TRISD0 = 0;
+[e = . . _TRISDbits 0 0 -> -> 0 `i `uc ]
+"8
+[; ;W5500.c: 8:     TRISDbits.TRISD1 = 1;
+[e = . . _TRISDbits 0 1 -> -> 1 `i `uc ]
+"9
+[; ;W5500.c: 9:     TRISDbits.TRISD2 = 0;
+[e = . . _TRISDbits 0 2 -> -> 0 `i `uc ]
+"10
+[; ;W5500.c: 10:     TRISDbits.TRISD3 = 0;
+[e = . . _TRISDbits 0 3 -> -> 0 `i `uc ]
+"11
+[; ;W5500.c: 11:     TRISDbits.TRISD4 = 0;
+[e = . . _TRISDbits 0 4 -> -> 0 `i `uc ]
+"12
+[; ;W5500.c: 12:     TRISDbits.TRISD5 = 1;
+[e = . . _TRISDbits 0 5 -> -> 1 `i `uc ]
+[v F2683 `uc ~T0 @X0 -> 6 `i s ]
+[i F2683
+:U ..
+"14
+[; ;W5500.c: 14:     unsigned char mac_addr[] = {0xf4,0x6b,0x8c,0xce,0x67,0x4b};
+-> -> 244 `i `uc
+-> -> 107 `i `uc
+-> -> 140 `i `uc
+-> -> 206 `i `uc
+-> -> 103 `i `uc
+-> -> 75 `i `uc
+..
+]
+[v _mac_addr `uc ~T0 @X0 -> 6 `i a ]
+[e = _mac_addr F2683 ]
+[v F2685 `uc ~T0 @X0 -> 4 `i s ]
+[i F2685
+:U ..
+"15
+[; ;W5500.c: 15:     unsigned char ip_addr[] = {10,10,15,223};
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+-> -> 15 `i `uc
+-> -> 223 `i `uc
+..
+]
+[v _ip_addr `uc ~T0 @X0 -> 4 `i a ]
+[e = _ip_addr F2685 ]
+[v F2687 `uc ~T0 @X0 -> 4 `i s ]
+[i F2687
+:U ..
+"16
+[; ;W5500.c: 16:     unsigned char sub_mask[] = {255,255,255,0};
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+..
+]
+[v _sub_mask `uc ~T0 @X0 -> 4 `i a ]
+[e = _sub_mask F2687 ]
+[v F2689 `uc ~T0 @X0 -> 4 `i s ]
+[i F2689
+:U ..
+"17
+[; ;W5500.c: 17:     unsigned char gtw_addr[] = {10,10,15,1};
+-> -> 10 `i `uc
+-> -> 10 `i `uc
+-> -> 15 `i `uc
+-> -> 1 `i `uc
+..
+]
+[v _gtw_addr `uc ~T0 @X0 -> 4 `i a ]
+[e = _gtw_addr F2689 ]
+"19
+[; ;W5500.c: 19:     WriteNByteW5500( 0x0000, 0x80, 1 ); _delay((unsigned long)((1)*(32000000UL/4000.0)));
+[e ( _WriteNByteW5500 (3 , , -> -> 0 `i `us -> -> 128 `i `*uc -> -> 1 `i `uc ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 32000000 `ul `d .4000.0 `ul ]
+"20
+[; ;W5500.c: 20:     WriteNByteW5500( 0x0001, gtw_addr, 4 );
+[e ( _WriteNByteW5500 (3 , , -> -> 1 `i `us &U _gtw_addr -> -> 4 `i `uc ]
+"21
+[; ;W5500.c: 21:     WriteNByteW5500( 0x0005, sub_mask, 4 );
+[e ( _WriteNByteW5500 (3 , , -> -> 5 `i `us &U _sub_mask -> -> 4 `i `uc ]
+"22
+[; ;W5500.c: 22:     WriteNByteW5500( 0x0009, mac_addr, 6 );
+[e ( _WriteNByteW5500 (3 , , -> -> 9 `i `us &U _mac_addr -> -> 6 `i `uc ]
+"23
+[; ;W5500.c: 23:     WriteNByteW5500( 0x000F, ip_addr, 4 );
+[e ( _WriteNByteW5500 (3 , , -> -> 15 `i `us &U _ip_addr -> -> 4 `i `uc ]
+"25
+[; ;W5500.c: 25:     for( uint8_t i = 0; i < 8; i++ ){
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 8 `i 282  ]
+[e $U 283  ]
+[e :U 282 ]
+{
+"26
+[; ;W5500.c: 26:         WriteByteW5500Socket( i, 0x001e, 0x02 );
+[e ( _WriteByteW5500Socket (3 , , _i -> -> 30 `i `us -> -> 2 `i `uc ]
+"27
+[; ;W5500.c: 27:         WriteByteW5500Socket( i, 0x001f, 0x02 );
+[e ( _WriteByteW5500Socket (3 , , _i -> -> 31 `i `us -> -> 2 `i `uc ]
+"28
+[; ;W5500.c: 28:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 8 `i 282  ]
+[e :U 283 ]
+}
+"30
+[; ;W5500.c: 30:     WriteNByteW5500( 0x0019, 0x07d0, 2 );
+[e ( _WriteNByteW5500 (3 , , -> -> 25 `i `us -> -> 2000 `i `*uc -> -> 2 `i `uc ]
+"31
+[; ;W5500.c: 31:     WriteNByteW5500( 0x001b, 8, 1 );
+[e ( _WriteNByteW5500 (3 , , -> -> 27 `i `us -> -> 8 `i `*uc -> -> 1 `i `uc ]
+"32
+[; ;W5500.c: 32: }
+[e :UE 281 ]
+}
+"34
+[; ;W5500.c: 34: uint8_t ReadW5500( uint16_t addr ){
+[v _ReadW5500 `(uc ~T0 @X0 1 ef1`us ]
+{
+[e :U _ReadW5500 ]
+[v _addr `us ~T0 @X0 1 r1 ]
+[f ]
+"35
+[; ;W5500.c: 35:     unsigned char receive_data;
+[v _receive_data `uc ~T0 @X0 1 a ]
+"36
+[; ;W5500.c: 36:     PORTDbits.RD2 = 0; __nop(); __nop();
+[e = . . _PORTDbits 0 2 -> -> 0 `i `uc ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"37
+[; ;W5500.c: 37:     WriteShortSPI( addr );
+[e ( _WriteShortSPI (1 _addr ]
+"38
+[; ;W5500.c: 38:     WriteByteSPI( 0x00 | 0x00 | 0x00 );
+[e ( _WriteByteSPI (1 -> | | -> 0 `i -> 0 `i -> 0 `i `uc ]
+"39
+[; ;W5500.c: 39:     receive_data = ReadByteSPI(); __nop(); __nop();
+[e = _receive_data ( _ReadByteSPI ..  ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"40
+[; ;W5500.c: 40:     WriteByteSPI( 0x00 );
+[e ( _WriteByteSPI (1 -> -> 0 `i `uc ]
+"41
+[; ;W5500.c: 41:     receive_data = ReadByteSPI(); __nop(); __nop();
+[e = _receive_data ( _ReadByteSPI ..  ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"42
+[; ;W5500.c: 42:     PORTDbits.RD2 = 1;
+[e = . . _PORTDbits 0 2 -> -> 1 `i `uc ]
+"43
+[; ;W5500.c: 43:     return receive_data;
+[e ) _receive_data ]
+[e $UE 285  ]
+"44
+[; ;W5500.c: 44: }
+[e :UE 285 ]
+}
+"46
+[; ;W5500.c: 46: uint8_t ReadByteW5500Socket( uint8_t socket_number, uint16_t addr ){
+[v _ReadByteW5500Socket `(uc ~T0 @X0 1 ef2`uc`us ]
+{
+[e :U _ReadByteW5500Socket ]
+[v _socket_number `uc ~T0 @X0 1 r1 ]
+[v _addr `us ~T0 @X0 1 r2 ]
+[f ]
+"47
+[; ;W5500.c: 47:     unsigned char receive_data;
+[v _receive_data `uc ~T0 @X0 1 a ]
+"48
+[; ;W5500.c: 48:     PORTDbits.RD2 = 0; __nop(); __nop();
+[e = . . _PORTDbits 0 2 -> -> 0 `i `uc ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"49
+[; ;W5500.c: 49:     WriteShortSPI( addr );
+[e ( _WriteShortSPI (1 _addr ]
+"50
+[; ;W5500.c: 50:     WriteByteSPI( 0x00 | 0x00 | ( socket_number * 0x20 + 0x08 ) );
+[e ( _WriteByteSPI (1 -> | | -> 0 `i -> 0 `i + * -> _socket_number `i -> 32 `i -> 8 `i `uc ]
+"51
+[; ;W5500.c: 51:     receive_data = ReadByteSPI(); __nop(); __nop();
+[e = _receive_data ( _ReadByteSPI ..  ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"52
+[; ;W5500.c: 52:     WriteByteSPI( 0x00 );
+[e ( _WriteByteSPI (1 -> -> 0 `i `uc ]
+"53
+[; ;W5500.c: 53:     receive_data = ReadByteSPI(); __nop(); __nop();
+[e = _receive_data ( _ReadByteSPI ..  ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"54
+[; ;W5500.c: 54:     PORTDbits.RD2 = 1;
+[e = . . _PORTDbits 0 2 -> -> 1 `i `uc ]
+"55
+[; ;W5500.c: 55:     return receive_data;
+[e ) _receive_data ]
+[e $UE 286  ]
+"56
+[; ;W5500.c: 56: }
+[e :UE 286 ]
+}
+"58
+[; ;W5500.c: 58: uint16_t ReadShortW5500Socket( uint8_t socket_number, uint16_t addr ){
+[v _ReadShortW5500Socket `(us ~T0 @X0 1 ef2`uc`us ]
+{
+[e :U _ReadShortW5500Socket ]
+[v _socket_number `uc ~T0 @X0 1 r1 ]
+[v _addr `us ~T0 @X0 1 r2 ]
+[f ]
+"59
+[; ;W5500.c: 59:     uint16_t receive_data;
+[v _receive_data `us ~T0 @X0 1 a ]
+"60
+[; ;W5500.c: 60:     PORTDbits.RD2 = 0; __nop(); __nop();
+[e = . . _PORTDbits 0 2 -> -> 0 `i `uc ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"61
+[; ;W5500.c: 61:     WriteShortSPI( addr );
+[e ( _WriteShortSPI (1 _addr ]
+"62
+[; ;W5500.c: 62:     WriteByteSPI( 0x00 | 0x00 | ( socket_number * 0x20 + 0x08 ) );
+[e ( _WriteByteSPI (1 -> | | -> 0 `i -> 0 `i + * -> _socket_number `i -> 32 `i -> 8 `i `uc ]
+"63
+[; ;W5500.c: 63:     receive_data = ReadByteSPI(); __nop(); __nop();
+[e = _receive_data -> ( _ReadByteSPI ..  `us ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"64
+[; ;W5500.c: 64:     WriteByteSPI( 0x00 );
+[e ( _WriteByteSPI (1 -> -> 0 `i `uc ]
+"65
+[; ;W5500.c: 65:     receive_data = ReadByteSPI(); __nop(); __nop();
+[e = _receive_data -> ( _ReadByteSPI ..  `us ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"66
+[; ;W5500.c: 66:     WriteByteSPI( 0x00 );
+[e ( _WriteByteSPI (1 -> -> 0 `i `uc ]
+"67
+[; ;W5500.c: 67:     receive_data = receive_data * 256 + ReadByteSPI(); __nop(); __nop();
+[e = _receive_data -> + * -> _receive_data `ui -> -> 256 `i `ui -> ( _ReadByteSPI ..  `ui `us ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"68
+[; ;W5500.c: 68:     PORTDbits.RD2 = 1;
+[e = . . _PORTDbits 0 2 -> -> 1 `i `uc ]
+"69
+[; ;W5500.c: 69:     return receive_data;
+[e ) _receive_data ]
+[e $UE 287  ]
+"70
+[; ;W5500.c: 70: }
+[e :UE 287 ]
+}
+"72
+[; ;W5500.c: 72: void WriteNByteW5500( uint16_t addr, uint8_t *write_datas, uint8_t data_size ){
+[v _WriteNByteW5500 `(v ~T0 @X0 1 ef3`us`*uc`uc ]
+{
+[e :U _WriteNByteW5500 ]
+[v _addr `us ~T0 @X0 1 r1 ]
+[v _write_datas `*uc ~T0 @X0 1 r2 ]
+[v _data_size `uc ~T0 @X0 1 r3 ]
+[f ]
+"73
+[; ;W5500.c: 73:     PORTDbits.RD2 = 0; __nop(); __nop();
+[e = . . _PORTDbits 0 2 -> -> 0 `i `uc ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"75
+[; ;W5500.c: 75:     WriteShortSPI( addr );
+[e ( _WriteShortSPI (1 _addr ]
+"76
+[; ;W5500.c: 76:     WriteByteSPI( 0x00 | 0x04 | 0x00 );
+[e ( _WriteByteSPI (1 -> | | -> 0 `i -> 4 `i -> 0 `i `uc ]
+"77
+[; ;W5500.c: 77:     for( uint8_t i = 0; i < data_size; i++ )
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $U 292  ]
+[e :U 289 ]
+"78
+[; ;W5500.c: 78:  {
+{
+"79
+[; ;W5500.c: 79:   WriteByteSPI( *write_datas ++ );
+[e ( _WriteByteSPI (1 *U ++ _write_datas * -> -> 1 `i `x -> -> # *U _write_datas `i `x ]
+"80
+[; ;W5500.c: 80:  }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 292 ]
+[e $ < -> _i `i -> _data_size `i 289  ]
+[e :U 290 ]
+}
+"82
+[; ;W5500.c: 82:     PORTDbits.RD2 = 1;
+[e = . . _PORTDbits 0 2 -> -> 1 `i `uc ]
+"83
+[; ;W5500.c: 83: }
+[e :UE 288 ]
+}
+"85
+[; ;W5500.c: 85: void WriteByteW5500Socket( uint8_t socket_number, uint16_t addr, uint8_t write_data ){
+[v _WriteByteW5500Socket `(v ~T0 @X0 1 ef3`uc`us`uc ]
+{
+[e :U _WriteByteW5500Socket ]
+[v _socket_number `uc ~T0 @X0 1 r1 ]
+[v _addr `us ~T0 @X0 1 r2 ]
+[v _write_data `uc ~T0 @X0 1 r3 ]
+[f ]
+"86
+[; ;W5500.c: 86:     PORTDbits.RD2 = 0; __nop(); __nop();
+[e = . . _PORTDbits 0 2 -> -> 0 `i `uc ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"88
+[; ;W5500.c: 88:     WriteShortSPI( addr );
+[e ( _WriteShortSPI (1 _addr ]
+"89
+[; ;W5500.c: 89:     WriteByteSPI( 0x00 | 0x04 | ( socket_number * 0x20 + 0x08 ) );
+[e ( _WriteByteSPI (1 -> | | -> 0 `i -> 4 `i + * -> _socket_number `i -> 32 `i -> 8 `i `uc ]
+"90
+[; ;W5500.c: 90:  WriteByteSPI( write_data );
+[e ( _WriteByteSPI (1 _write_data ]
+"92
+[; ;W5500.c: 92:     PORTDbits.RD2 = 1;
+[e = . . _PORTDbits 0 2 -> -> 1 `i `uc ]
+"93
+[; ;W5500.c: 93: }
+[e :UE 293 ]
+}
+"95
+[; ;W5500.c: 95: void WriteShortW5500Socket( uint8_t socket_number, uint16_t addr, uint16_t write_data ){
+[v _WriteShortW5500Socket `(v ~T0 @X0 1 ef3`uc`us`us ]
+{
+[e :U _WriteShortW5500Socket ]
+[v _socket_number `uc ~T0 @X0 1 r1 ]
+[v _addr `us ~T0 @X0 1 r2 ]
+[v _write_data `us ~T0 @X0 1 r3 ]
+[f ]
+"96
+[; ;W5500.c: 96:     PORTDbits.RD2 = 0; __nop(); __nop();
+[e = . . _PORTDbits 0 2 -> -> 0 `i `uc ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"98
+[; ;W5500.c: 98:     WriteShortSPI( addr );
+[e ( _WriteShortSPI (1 _addr ]
+"99
+[; ;W5500.c: 99:     WriteByteSPI( 0x00 | 0x04 | ( socket_number * 0x20 + 0x08 ) );
+[e ( _WriteByteSPI (1 -> | | -> 0 `i -> 4 `i + * -> _socket_number `i -> 32 `i -> 8 `i `uc ]
+"100
+[; ;W5500.c: 100:  WriteShortSPI( write_data );
+[e ( _WriteShortSPI (1 _write_data ]
+"102
+[; ;W5500.c: 102:     PORTDbits.RD2 = 1;
+[e = . . _PORTDbits 0 2 -> -> 1 `i `uc ]
+"103
+[; ;W5500.c: 103: }
+[e :UE 294 ]
+}
+"105
+[; ;W5500.c: 105: void WriteDwordW5500Socket( uint8_t socket_number, uint16_t addr, uint8_t *write_datas ){
+[v _WriteDwordW5500Socket `(v ~T0 @X0 1 ef3`uc`us`*uc ]
+{
+[e :U _WriteDwordW5500Socket ]
+[v _socket_number `uc ~T0 @X0 1 r1 ]
+[v _addr `us ~T0 @X0 1 r2 ]
+[v _write_datas `*uc ~T0 @X0 1 r3 ]
+[f ]
+"106
+[; ;W5500.c: 106:     PORTDbits.RD2 = 0; __nop(); __nop();
+[e = . . _PORTDbits 0 2 -> -> 0 `i `uc ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"108
+[; ;W5500.c: 108:     WriteShortSPI( addr );
+[e ( _WriteShortSPI (1 _addr ]
+"109
+[; ;W5500.c: 109:     WriteByteSPI( 0x00 | 0x04 | ( socket_number * 0x20 + 0x08 ) );
+[e ( _WriteByteSPI (1 -> | | -> 0 `i -> 4 `i + * -> _socket_number `i -> 32 `i -> 8 `i `uc ]
+"110
+[; ;W5500.c: 110:  WriteShortSPI( *write_datas ++ );
+[e ( _WriteShortSPI (1 -> *U ++ _write_datas * -> -> 1 `i `x -> -> # *U _write_datas `i `x `us ]
+"111
+[; ;W5500.c: 111:     WriteShortSPI( *write_datas ++ );
+[e ( _WriteShortSPI (1 -> *U ++ _write_datas * -> -> 1 `i `x -> -> # *U _write_datas `i `x `us ]
+"112
+[; ;W5500.c: 112:     WriteShortSPI( *write_datas ++ );
+[e ( _WriteShortSPI (1 -> *U ++ _write_datas * -> -> 1 `i `x -> -> # *U _write_datas `i `x `us ]
+"113
+[; ;W5500.c: 113:     WriteShortSPI( *write_datas ++ );
+[e ( _WriteShortSPI (1 -> *U ++ _write_datas * -> -> 1 `i `x -> -> # *U _write_datas `i `x `us ]
+"115
+[; ;W5500.c: 115:     PORTDbits.RD2 = 1;
+[e = . . _PORTDbits 0 2 -> -> 1 `i `uc ]
+"116
+[; ;W5500.c: 116: }
+[e :UE 295 ]
+}
+"118
+[; ;W5500.c: 118: void WriteByteSPI( uint8_t data ){
+[v _WriteByteSPI `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _WriteByteSPI ]
+[v _data `uc ~T0 @X0 1 r1 ]
+[f ]
+"119
+[; ;W5500.c: 119:     uint8_t temp = data;
+[v _temp `uc ~T0 @X0 1 a ]
+[e = _temp _data ]
+"120
+[; ;W5500.c: 120:     for( unsigned char i = 0; i < 8; i ++ )
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 8 `i 297  ]
+[e $U 298  ]
+[e :U 297 ]
+"121
+[; ;W5500.c: 121:     {
+{
+"122
+[; ;W5500.c: 122:         PORTDbits.RD4 = ( temp & 0x80 ) ? 1 : 0;
+[e = . . _PORTDbits 0 4 -> ? != & -> _temp `i -> 128 `i -> 0 `i : -> 1 `i -> 0 `i `uc ]
+"123
+[; ;W5500.c: 123:         PORTDbits.RD3 = 1; __nop(); __nop(); __nop(); PORTDbits.RD3 = 1;
+[e = . . _PORTDbits 0 3 -> -> 1 `i `uc ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+[e = . . _PORTDbits 0 3 -> -> 1 `i `uc ]
+"124
+[; ;W5500.c: 124:         temp = temp << 1;
+[e = _temp -> << -> _temp `i -> 1 `i `uc ]
+"125
+[; ;W5500.c: 125:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 8 `i 297  ]
+[e :U 298 ]
+}
+"126
+[; ;W5500.c: 126: }
+[e :UE 296 ]
+}
+"128
+[; ;W5500.c: 128: void WriteShortSPI( uint16_t data ){
+[v _WriteShortSPI `(v ~T0 @X0 1 ef1`us ]
+{
+[e :U _WriteShortSPI ]
+[v _data `us ~T0 @X0 1 r1 ]
+[f ]
+"129
+[; ;W5500.c: 129:     uint16_t temp = data;
+[v _temp `us ~T0 @X0 1 a ]
+[e = _temp _data ]
+"130
+[; ;W5500.c: 130:     for( uint8_t i = 0; i < 16; i ++ )
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 16 `i 301  ]
+[e $U 302  ]
+[e :U 301 ]
+"131
+[; ;W5500.c: 131:     {
+{
+"132
+[; ;W5500.c: 132:         PORTDbits.RD4 = ( temp & 0x80 ) ? 1 : 0;
+[e = . . _PORTDbits 0 4 -> ? != & -> _temp `ui -> -> 128 `i `ui -> -> 0 `i `ui : -> 1 `i -> 0 `i `uc ]
+"133
+[; ;W5500.c: 133:         PORTDbits.RD3 = 1; __nop(); __nop(); __nop(); PORTDbits.RD3 = 1;
+[e = . . _PORTDbits 0 3 -> -> 1 `i `uc ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+[e = . . _PORTDbits 0 3 -> -> 1 `i `uc ]
+"134
+[; ;W5500.c: 134:         temp = temp << 1;
+[e = _temp -> << -> _temp `ui -> 1 `i `us ]
+"135
+[; ;W5500.c: 135:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 16 `i 301  ]
+[e :U 302 ]
+}
+"136
+[; ;W5500.c: 136: }
+[e :UE 300 ]
+}
+"138
+[; ;W5500.c: 138: uint8_t ReadByteSPI(){
+[v _ReadByteSPI `(uc ~T0 @X0 1 ef ]
+{
+[e :U _ReadByteSPI ]
+[f ]
+"139
+[; ;W5500.c: 139:     uint8_t temp = 0;
+[v _temp `uc ~T0 @X0 1 a ]
+[e = _temp -> -> 0 `i `uc ]
+"140
+[; ;W5500.c: 140:     for( uint8_t i = 0; i < 8; i ++ )
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 8 `i 305  ]
+[e $U 306  ]
+[e :U 305 ]
+"141
+[; ;W5500.c: 141:     {
+{
+"142
+[; ;W5500.c: 142:         PORTDbits.RD3 = 1; __nop(); __nop(); __nop(); PORTDbits.RD3 = 1;
+[e = . . _PORTDbits 0 3 -> -> 1 `i `uc ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+[e = . . _PORTDbits 0 3 -> -> 1 `i `uc ]
+"143
+[; ;W5500.c: 143:         temp = temp + PORTDbits.RD4;
+[e = _temp -> + -> _temp `i -> . . _PORTDbits 0 4 `i `uc ]
+"144
+[; ;W5500.c: 144:         temp = temp << 1;
+[e = _temp -> << -> _temp `i -> 1 `i `uc ]
+"145
+[; ;W5500.c: 145:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 8 `i 305  ]
+[e :U 306 ]
+}
+"146
+[; ;W5500.c: 146:     return temp;
+[e ) _temp ]
+[e $UE 304  ]
+"147
+[; ;W5500.c: 147: }
+[e :UE 304 ]
+}
+"149
+[; ;W5500.c: 149: uint16_t ReadSocketBuffer( uint8_t socket_number, uint8_t *datas )
+[v _ReadSocketBuffer `(us ~T0 @X0 1 ef2`uc`*uc ]
+"150
+[; ;W5500.c: 150: {
+{
+[e :U _ReadSocketBuffer ]
+"149
+[; ;W5500.c: 149: uint16_t ReadSocketBuffer( uint8_t socket_number, uint8_t *datas )
+[v _socket_number `uc ~T0 @X0 1 r1 ]
+[v _datas `*uc ~T0 @X0 1 r2 ]
+"150
+[; ;W5500.c: 150: {
+[f ]
+"151
+[; ;W5500.c: 151:  uint16_t rx_size;
+[v _rx_size `us ~T0 @X0 1 a ]
+"152
+[; ;W5500.c: 152:  uint16_t offset, offset_1;
+[v _offset `us ~T0 @X0 1 a ]
+[v _offset_1 `us ~T0 @X0 1 a ]
+"154
+[; ;W5500.c: 154:     rx_size = ReadShortW5500Socket( socket_number, 0x0026 );
+[e = _rx_size ( _ReadShortW5500Socket (2 , _socket_number -> -> 38 `i `us ]
+"155
+[; ;W5500.c: 155:  if( rx_size == 0 ) return 0;
+[e $ ! == -> _rx_size `ui -> -> 0 `i `ui 309  ]
+[e ) -> -> 0 `i `us ]
+[e $UE 308  ]
+[e :U 309 ]
+"156
+[; ;W5500.c: 156:  if( rx_size > 1460 ) rx_size = 1460;
+[e $ ! > -> _rx_size `ui -> -> 1460 `i `ui 310  ]
+[e = _rx_size -> -> 1460 `i `us ]
+[e :U 310 ]
+"158
+[; ;W5500.c: 158:  offset = ReadShortW5500Socket( socket_number, 0x0028);
+[e = _offset ( _ReadShortW5500Socket (2 , _socket_number -> -> 40 `i `us ]
+"159
+[; ;W5500.c: 159:  offset_1 = offset;
+[e = _offset_1 _offset ]
+"160
+[; ;W5500.c: 160:  offset &= ( 2048 - 1 );
+[e =& _offset -> - -> 2048 `i -> 1 `i `us ]
+"162
+[; ;W5500.c: 162:  PORTDbits.RD2 = 0; __nop(); __nop();
+[e = . . _PORTDbits 0 2 -> -> 0 `i `uc ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"164
+[; ;W5500.c: 164:  WriteShortSPI( offset );
+[e ( _WriteShortSPI (1 _offset ]
+"165
+[; ;W5500.c: 165:  WriteByteSPI( 0x00 | 0x00 | ( socket_number * 0x20 + 0x18 ) );
+[e ( _WriteByteSPI (1 -> | | -> 0 `i -> 0 `i + * -> _socket_number `i -> 32 `i -> 24 `i `uc ]
+"167
+[; ;W5500.c: 167:     uint8_t temp = ReadByteSPI();
+[v _temp `uc ~T0 @X0 1 a ]
+[e = _temp ( _ReadByteSPI ..  ]
+"169
+[; ;W5500.c: 169:  if( ( offset + rx_size ) < 2048 )
+[e $ ! < + -> _offset `ui -> _rx_size `ui -> -> 2048 `i `ui 311  ]
+"170
+[; ;W5500.c: 170:  {
+{
+"171
+[; ;W5500.c: 171:   for( uint16_t i = 0; i < rx_size; i++ )
+{
+[v _i `us ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `us ]
+[e $U 315  ]
+[e :U 312 ]
+"172
+[; ;W5500.c: 172:   {
+{
+"173
+[; ;W5500.c: 173:    WriteByteSPI( 0x00 );
+[e ( _WriteByteSPI (1 -> -> 0 `i `uc ]
+"174
+[; ;W5500.c: 174:    temp = ReadByteSPI();
+[e = _temp ( _ReadByteSPI ..  ]
+"175
+[; ;W5500.c: 175:    *datas = temp;
+[e = *U _datas _temp ]
+"176
+[; ;W5500.c: 176:    datas ++;
+[e ++ _datas * -> -> 1 `i `x -> -> # *U _datas `i `x ]
+"177
+[; ;W5500.c: 177:   }
+}
+[e ++ _i -> -> 1 `i `us ]
+[e :U 315 ]
+[e $ < -> _i `ui -> _rx_size `ui 312  ]
+[e :U 313 ]
+}
+"178
+[; ;W5500.c: 178:  }
+}
+[e $U 316  ]
+"179
+[; ;W5500.c: 179:  else
+[e :U 311 ]
+"180
+[; ;W5500.c: 180:  {
+{
+"181
+[; ;W5500.c: 181:   offset = 2048 - offset;
+[e = _offset -> - -> -> 2048 `i `ui -> _offset `ui `us ]
+"182
+[; ;W5500.c: 182:   for( uint16_t i = 0;i < offset; i++ )
+{
+[v _i `us ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `us ]
+[e $U 320  ]
+[e :U 317 ]
+"183
+[; ;W5500.c: 183:   {
+{
+"184
+[; ;W5500.c: 184:    WriteByteSPI( 0x00 );
+[e ( _WriteByteSPI (1 -> -> 0 `i `uc ]
+"185
+[; ;W5500.c: 185:    WriteByteSPI( 0x00 );
+[e ( _WriteByteSPI (1 -> -> 0 `i `uc ]
+"186
+[; ;W5500.c: 186:    temp = ReadByteSPI();
+[e = _temp ( _ReadByteSPI ..  ]
+"187
+[; ;W5500.c: 187:    *datas = temp;
+[e = *U _datas _temp ]
+"188
+[; ;W5500.c: 188:    datas ++;
+[e ++ _datas * -> -> 1 `i `x -> -> # *U _datas `i `x ]
+"189
+[; ;W5500.c: 189:   }
+}
+[e ++ _i -> -> 1 `i `us ]
+[e :U 320 ]
+[e $ < -> _i `ui -> _offset `ui 317  ]
+[e :U 318 ]
+}
+"190
+[; ;W5500.c: 190:   PORTDbits.RD2 = 1; __nop(); __nop();
+[e = . . _PORTDbits 0 2 -> -> 1 `i `uc ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"192
+[; ;W5500.c: 192:   PORTDbits.RD2 = 0; __nop(); __nop();
+[e = . . _PORTDbits 0 2 -> -> 0 `i `uc ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"194
+[; ;W5500.c: 194:   WriteByteSPI( 0x00 );
+[e ( _WriteByteSPI (1 -> -> 0 `i `uc ]
+"195
+[; ;W5500.c: 195:   WriteByteSPI( 0x00 | 0x00 | ( socket_number * 0x20 + 0x18 ) );
+[e ( _WriteByteSPI (1 -> | | -> 0 `i -> 0 `i + * -> _socket_number `i -> 32 `i -> 24 `i `uc ]
+"197
+[; ;W5500.c: 197:         temp = ReadByteSPI();
+[e = _temp ( _ReadByteSPI ..  ]
+"199
+[; ;W5500.c: 199:   for( uint16_t i = 0; i < rx_size; i++ )
+{
+[v _i `us ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `us ]
+[e $U 324  ]
+[e :U 321 ]
+"200
+[; ;W5500.c: 200:   {
+{
+"201
+[; ;W5500.c: 201:    WriteByteSPI( 0x00 );
+[e ( _WriteByteSPI (1 -> -> 0 `i `uc ]
+"202
+[; ;W5500.c: 202:    temp = ReadByteSPI();
+[e = _temp ( _ReadByteSPI ..  ]
+"203
+[; ;W5500.c: 203:    *datas = temp;
+[e = *U _datas _temp ]
+"204
+[; ;W5500.c: 204:    datas ++;
+[e ++ _datas * -> -> 1 `i `x -> -> # *U _datas `i `x ]
+"205
+[; ;W5500.c: 205:   }
+}
+[e ++ _i -> -> 1 `i `us ]
+[e :U 324 ]
+[e $ < -> _i `ui -> _rx_size `ui 321  ]
+[e :U 322 ]
+}
+"206
+[; ;W5500.c: 206:  }
+}
+[e :U 316 ]
+"207
+[; ;W5500.c: 207:  PORTDbits.RD2 = 1; __nop(); __nop();
+[e = . . _PORTDbits 0 2 -> -> 1 `i `uc ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"209
+[; ;W5500.c: 209:  offset_1 += rx_size;
+[e =+ _offset_1 -> _rx_size `us ]
+"210
+[; ;W5500.c: 210:  WriteShortW5500Socket( socket_number, 0x0028, offset_1 );
+[e ( _WriteShortW5500Socket (3 , , _socket_number -> -> 40 `i `us _offset_1 ]
+"211
+[; ;W5500.c: 211:  WriteByteW5500Socket(socket_number, 0x0001, 0x40 );
+[e ( _WriteByteW5500Socket (3 , , _socket_number -> -> 1 `i `us -> -> 64 `i `uc ]
+"212
+[; ;W5500.c: 212:  return rx_size;
+[e ) _rx_size ]
+[e $UE 308  ]
+"214
+[; ;W5500.c: 214: }
+[e :UE 308 ]
+}
+"216
+[; ;W5500.c: 216: void Write_SOCK_Data_Buffer( uint8_t socket_number, uint8_t *datas, uint8_t size)
+[v _Write_SOCK_Data_Buffer `(v ~T0 @X0 1 ef3`uc`*uc`uc ]
+"217
+[; ;W5500.c: 217: {
+{
+[e :U _Write_SOCK_Data_Buffer ]
+"216
+[; ;W5500.c: 216: void Write_SOCK_Data_Buffer( uint8_t socket_number, uint8_t *datas, uint8_t size)
+[v _socket_number `uc ~T0 @X0 1 r1 ]
+[v _datas `*uc ~T0 @X0 1 r2 ]
+[v _size `uc ~T0 @X0 1 r3 ]
+"217
+[; ;W5500.c: 217: {
+[f ]
+"218
+[; ;W5500.c: 218:  uint16_t offset, offset_1;
+[v _offset `us ~T0 @X0 1 a ]
+[v _offset_1 `us ~T0 @X0 1 a ]
+"220
+[; ;W5500.c: 220:  offset = ReadShortW5500Socket( socket_number, 0x0024 );
+[e = _offset ( _ReadShortW5500Socket (2 , _socket_number -> -> 36 `i `us ]
+"221
+[; ;W5500.c: 221:  offset_1 = offset;
+[e = _offset_1 _offset ]
+"222
+[; ;W5500.c: 222:  offset &= ( 2048 - 1 );
+[e =& _offset -> - -> 2048 `i -> 1 `i `us ]
+"224
+[; ;W5500.c: 224:  PORTDbits.RD2 = 0; __nop(); __nop();
+[e = . . _PORTDbits 0 2 -> -> 0 `i `uc ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"226
+[; ;W5500.c: 226:     WriteShortSPI( offset );
+[e ( _WriteShortSPI (1 _offset ]
+"227
+[; ;W5500.c: 227:  WriteByteSPI( 0x00 | 0x04 | ( socket_number * 0x20 + 0x10 ) );
+[e ( _WriteByteSPI (1 -> | | -> 0 `i -> 4 `i + * -> _socket_number `i -> 32 `i -> 16 `i `uc ]
+"229
+[; ;W5500.c: 229:  if( ( offset + size ) < 2048 )
+[e $ ! < + -> _offset `ui -> _size `ui -> -> 2048 `i `ui 326  ]
+"230
+[; ;W5500.c: 230:  {
+{
+"231
+[; ;W5500.c: 231:   for( uint16_t i = 0; i < size; i++ )
+{
+[v _i `us ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `us ]
+[e $U 330  ]
+[e :U 327 ]
+"232
+[; ;W5500.c: 232:   {
+{
+"233
+[; ;W5500.c: 233:    WriteByteSPI( *datas++ );
+[e ( _WriteByteSPI (1 *U ++ _datas * -> -> 1 `i `x -> -> # *U _datas `i `x ]
+"234
+[; ;W5500.c: 234:   }
+}
+[e ++ _i -> -> 1 `i `us ]
+[e :U 330 ]
+[e $ < -> _i `ui -> _size `ui 327  ]
+[e :U 328 ]
+}
+"235
+[; ;W5500.c: 235:  }
+}
+[e $U 331  ]
+"236
+[; ;W5500.c: 236:  else
+[e :U 326 ]
+"237
+[; ;W5500.c: 237:  {
+{
+"238
+[; ;W5500.c: 238:   offset = 2048 - offset;
+[e = _offset -> - -> -> 2048 `i `ui -> _offset `ui `us ]
+"239
+[; ;W5500.c: 239:   for( uint16_t i = 0; i < offset; i++ )
+{
+[v _i `us ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `us ]
+[e $U 335  ]
+[e :U 332 ]
+"240
+[; ;W5500.c: 240:   {
+{
+"241
+[; ;W5500.c: 241:    WriteByteSPI( *datas++ );
+[e ( _WriteByteSPI (1 *U ++ _datas * -> -> 1 `i `x -> -> # *U _datas `i `x ]
+"242
+[; ;W5500.c: 242:   }
+}
+[e ++ _i -> -> 1 `i `us ]
+[e :U 335 ]
+[e $ < -> _i `ui -> _offset `ui 332  ]
+[e :U 333 ]
+}
+"243
+[; ;W5500.c: 243:   PORTDbits.RD2 = 1; __nop(); __nop();
+[e = . . _PORTDbits 0 2 -> -> 1 `i `uc ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"245
+[; ;W5500.c: 245:   PORTDbits.RD2 = 0; __nop(); __nop();
+[e = . . _PORTDbits 0 2 -> -> 0 `i `uc ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"247
+[; ;W5500.c: 247:   WriteByteSPI( 0x00 );
+[e ( _WriteByteSPI (1 -> -> 0 `i `uc ]
+"248
+[; ;W5500.c: 248:   WriteByteSPI( 0x00 | 0x04 | ( socket_number * 0x20 + 0x10 ) );
+[e ( _WriteByteSPI (1 -> | | -> 0 `i -> 4 `i + * -> _socket_number `i -> 32 `i -> 16 `i `uc ]
+"250
+[; ;W5500.c: 250:   for( uint16_t i = 0; i < size; i++ )
+{
+[v _i `us ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `us ]
+[e $U 339  ]
+[e :U 336 ]
+"251
+[; ;W5500.c: 251:   {
+{
+"252
+[; ;W5500.c: 252:    WriteByteSPI( *datas++ );
+[e ( _WriteByteSPI (1 *U ++ _datas * -> -> 1 `i `x -> -> # *U _datas `i `x ]
+"253
+[; ;W5500.c: 253:   }
+}
+[e ++ _i -> -> 1 `i `us ]
+[e :U 339 ]
+[e $ < -> _i `ui -> _size `ui 336  ]
+[e :U 337 ]
+}
+"254
+[; ;W5500.c: 254:  }
+}
+[e :U 331 ]
+"255
+[; ;W5500.c: 255:  PORTDbits.RD2 = 1; __nop(); __nop();
+[e = . . _PORTDbits 0 2 -> -> 1 `i `uc ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"257
+[; ;W5500.c: 257:  offset_1 += size;
+[e =+ _offset_1 -> _size `us ]
+"258
+[; ;W5500.c: 258:  WriteShortW5500Socket( socket_number, 0x0024, offset_1 );
+[e ( _WriteShortW5500Socket (3 , , _socket_number -> -> 36 `i `us _offset_1 ]
+"259
+[; ;W5500.c: 259:  WriteByteW5500Socket( socket_number, 0x0001, 0x20 );
+[e ( _WriteByteW5500Socket (3 , , _socket_number -> -> 1 `i `us -> -> 32 `i `uc ]
+"260
+[; ;W5500.c: 260: }
+[e :UE 325 ]
+}
+"262
+[; ;W5500.c: 262: void W5500_Hardware_Reset(void)
+[v _W5500_Hardware_Reset `(v ~T0 @X0 1 ef ]
+"263
+[; ;W5500.c: 263: {
+{
+[e :U _W5500_Hardware_Reset ]
+[f ]
+"264
+[; ;W5500.c: 264:  PORTDbits.RD2 = 0; __nop(); __nop();
+[e = . . _PORTDbits 0 2 -> -> 0 `i `uc ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"265
+[; ;W5500.c: 265:  _delay((unsigned long)((50)*(32000000UL/4000000.0)));
+[e ( __delay (1 -> * -> -> 50 `i `d / -> -> 32000000 `ul `d .4000000.0 `ul ]
+"266
+[; ;W5500.c: 266:  PORTDbits.RD2 = 1; __nop(); __nop();
+[e = . . _PORTDbits 0 2 -> -> 1 `i `uc ]
+[e ( ___nop ..  ]
+[e ( ___nop ..  ]
+"267
+[; ;W5500.c: 267:  _delay((unsigned long)((200)*(32000000UL/4000000.0)));
+[e ( __delay (1 -> * -> -> 200 `i `d / -> -> 32000000 `ul `d .4000000.0 `ul ]
+"268
+[; ;W5500.c: 268:  while( ( ReadW5500( 0x002e ) & 0x01 ) == 0 );
+[e $U 341  ]
+[e :U 342 ]
+[e :U 341 ]
+[e $ == & -> ( _ReadW5500 (1 -> -> 46 `i `us `i -> 1 `i -> 0 `i 342  ]
+[e :U 343 ]
+"269
+[; ;W5500.c: 269: }
+[e :UE 340 ]
+}
+"271
+[; ;W5500.c: 271: uint8_t Detect_Gateway(void)
+[v _Detect_Gateway `(uc ~T0 @X0 1 ef ]
+"272
+[; ;W5500.c: 272: {
+{
+[e :U _Detect_Gateway ]
+[f ]
+"273
+[; ;W5500.c: 273:  uint8_t ip_adde[4];
+[v _ip_adde `uc ~T0 @X0 -> 4 `i a ]
+"274
+[; ;W5500.c: 274:  ip_adde[0]=IP_Addr[0]+1;
+[e = *U + &U _ip_adde * -> -> -> 0 `i `ui `ux -> -> # *U &U _ip_adde `ui `ux -> + -> *U + &U _IP_Addr * -> -> -> 0 `i `ui `ux -> -> # *U &U _IP_Addr `ui `ux `i -> 1 `i `uc ]
+"275
+[; ;W5500.c: 275:  ip_adde[1]=IP_Addr[1]+1;
+[e = *U + &U _ip_adde * -> -> -> 1 `i `ui `ux -> -> # *U &U _ip_adde `ui `ux -> + -> *U + &U _IP_Addr * -> -> -> 1 `i `ui `ux -> -> # *U &U _IP_Addr `ui `ux `i -> 1 `i `uc ]
+"276
+[; ;W5500.c: 276:  ip_adde[2]=IP_Addr[2]+1;
+[e = *U + &U _ip_adde * -> -> -> 2 `i `ui `ux -> -> # *U &U _ip_adde `ui `ux -> + -> *U + &U _IP_Addr * -> -> -> 2 `i `ui `ux -> -> # *U &U _IP_Addr `ui `ux `i -> 1 `i `uc ]
+"277
+[; ;W5500.c: 277:  ip_adde[3]=IP_Addr[3]+1;
+[e = *U + &U _ip_adde * -> -> -> 3 `i `ui `ux -> -> # *U &U _ip_adde `ui `ux -> + -> *U + &U _IP_Addr * -> -> -> 3 `i `ui `ux -> -> # *U &U _IP_Addr `ui `ux `i -> 1 `i `uc ]
+"280
+[; ;W5500.c: 280:  WriteDwordW5500Socket( 0, 0x000c, ip_adde );
+[e ( _WriteDwordW5500Socket (3 , , -> -> 0 `i `uc -> -> 12 `i `us &U _ip_adde ]
+"281
+[; ;W5500.c: 281:  WriteByteW5500Socket( 0, 0x0000, 0x01 );
+[e ( _WriteByteW5500Socket (3 , , -> -> 0 `i `uc -> -> 0 `i `us -> -> 1 `i `uc ]
+"282
+[; ;W5500.c: 282:  WriteByteW5500Socket( 0, 0x0001, 0x01 );
+[e ( _WriteByteW5500Socket (3 , , -> -> 0 `i `uc -> -> 1 `i `us -> -> 1 `i `uc ]
+"283
+[; ;W5500.c: 283:  _delay((unsigned long)((10)*(32000000UL/4000000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 32000000 `ul `d .4000000.0 `ul ]
+"285
+[; ;W5500.c: 285:  if(ReadByteW5500Socket( 0, 0x0003) != 0x13 )
+[e $ ! != -> ( _ReadByteW5500Socket (2 , -> -> 0 `i `uc -> -> 3 `i `us `i -> 19 `i 345  ]
+"286
+[; ;W5500.c: 286:  {
+{
+"287
+[; ;W5500.c: 287:   WriteByteW5500Socket( 0, 0x0001, 0x10 );
+[e ( _WriteByteW5500Socket (3 , , -> -> 0 `i `uc -> -> 1 `i `us -> -> 16 `i `uc ]
+"288
+[; ;W5500.c: 288:   return 0;
+[e ) -> -> 0 `i `uc ]
+[e $UE 344  ]
+"289
+[; ;W5500.c: 289:  }
+}
+[e :U 345 ]
+"291
+[; ;W5500.c: 291:  WriteByteW5500Socket( 0, 0x0001, 0x04 );
+[e ( _WriteByteW5500Socket (3 , , -> -> 0 `i `uc -> -> 1 `i `us -> -> 4 `i `uc ]
+"293
+[; ;W5500.c: 293:  do
+[e :U 348 ]
+"294
+[; ;W5500.c: 294:  {
+{
+"295
+[; ;W5500.c: 295:   uint16_t temp = 0;
+[v _temp `us ~T0 @X0 1 a ]
+[e = _temp -> -> 0 `i `us ]
+"296
+[; ;W5500.c: 296:   temp = ReadByteW5500Socket( 0, 0x0002 );
+[e = _temp -> ( _ReadByteW5500Socket (2 , -> -> 0 `i `uc -> -> 2 `i `us `us ]
+"297
+[; ;W5500.c: 297:   if( temp != 0 )
+[e $ ! != -> _temp `ui -> -> 0 `i `ui 349  ]
+"298
+[; ;W5500.c: 298:   WriteByteW5500Socket( 0, 0x0002, temp );
+[e ( _WriteByteW5500Socket (3 , , -> -> 0 `i `uc -> -> 2 `i `us -> _temp `uc ]
+[e :U 349 ]
+"299
+[; ;W5500.c: 299:   _delay((unsigned long)((10)*(32000000UL/4000000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 32000000 `ul `d .4000000.0 `ul ]
+"300
+[; ;W5500.c: 300:   if( ( temp & 0x08 ) == 0x08 )
+[e $ ! == & -> _temp `ui -> -> 8 `i `ui -> -> 8 `i `ui 350  ]
+"301
+[; ;W5500.c: 301:   {
+{
+"302
+[; ;W5500.c: 302:    return 0;
+[e ) -> -> 0 `i `uc ]
+[e $UE 344  ]
+"303
+[; ;W5500.c: 303:   }
+}
+[e $U 351  ]
+"304
+[; ;W5500.c: 304:   else if( ReadByteW5500Socket( 0, 0x0006 ) != 0xff)
+[e :U 350 ]
+[e $ ! != -> ( _ReadByteW5500Socket (2 , -> -> 0 `i `uc -> -> 6 `i `us `i -> 255 `i 352  ]
+"305
+[; ;W5500.c: 305:   {
+{
+"306
+[; ;W5500.c: 306:    WriteByteW5500Socket( 0, 0x0001, 0x10 );
+[e ( _WriteByteW5500Socket (3 , , -> -> 0 `i `uc -> -> 1 `i `us -> -> 16 `i `uc ]
+"307
+[; ;W5500.c: 307:    return 1;
+[e ) -> -> 1 `i `uc ]
+[e $UE 344  ]
+"308
+[; ;W5500.c: 308:   }
+}
+[e :U 352 ]
+[e :U 351 ]
+"309
+[; ;W5500.c: 309:  }while(1);
+}
+[e $ != -> 1 `i -> 0 `i 348  ]
+[e :U 347 ]
+"310
+[; ;W5500.c: 310: }
+[e :UE 344 ]
+}
+"312
+[; ;W5500.c: 312: void SocketInit( uint8_t socket )
+[v _SocketInit `(v ~T0 @X0 1 ef1`uc ]
+"313
+[; ;W5500.c: 313: {
+{
+[e :U _SocketInit ]
+"312
+[; ;W5500.c: 312: void SocketInit( uint8_t socket )
+[v _socket `uc ~T0 @X0 1 r1 ]
+"313
+[; ;W5500.c: 313: {
+[f ]
+"315
+[; ;W5500.c: 315:  switch( socket )
+[e $U 355  ]
+"316
+[; ;W5500.c: 316:  {
+{
+"317
+[; ;W5500.c: 317:   case 0:
+[e :U 356 ]
+"319
+[; ;W5500.c: 319:    WriteShortW5500Socket( 0, 0x0012, 1460 );
+[e ( _WriteShortW5500Socket (3 , , -> -> 0 `i `uc -> -> 18 `i `us -> -> 1460 `i `us ]
+"321
+[; ;W5500.c: 321:    WriteShortW5500Socket( 0, 0x0004, S0_Port[ 0 ] * 256 + S0_Port[ 1 ] );
+[e ( _WriteShortW5500Socket (3 , , -> -> 0 `i `uc -> -> 4 `i `us -> + * -> *U + &U _S0_Port * -> -> -> 0 `i `ui `ux -> -> # *U &U _S0_Port `ui `ux `i -> 256 `i -> *U + &U _S0_Port * -> -> -> 1 `i `ui `ux -> -> # *U &U _S0_Port `ui `ux `i `us ]
+"323
+[; ;W5500.c: 323:    WriteShortW5500Socket( 0, 0x0010, S0_DPort[ 0 ] * 256 + S0_DPort[ 1 ] );
+[e ( _WriteShortW5500Socket (3 , , -> -> 0 `i `uc -> -> 16 `i `us -> + * -> *U + &U _S0_DPort * -> -> -> 0 `i `ui `ux -> -> # *U &U _S0_DPort `ui `ux `i -> 256 `i -> *U + &U _S0_DPort * -> -> -> 1 `i `ui `ux -> -> # *U &U _S0_DPort `ui `ux `i `us ]
+"325
+[; ;W5500.c: 325:    WriteDwordW5500Socket( 0, 0x000c, S0_DIP );
+[e ( _WriteDwordW5500Socket (3 , , -> -> 0 `i `uc -> -> 12 `i `us &U _S0_DIP ]
+"326
+[; ;W5500.c: 326:    break;
+[e $U 354  ]
+"328
+[; ;W5500.c: 328:   case 1:
+[e :U 357 ]
+"330
+[; ;W5500.c: 330:    WriteShortW5500Socket( 1, 0x0012, 1460 );
+[e ( _WriteShortW5500Socket (3 , , -> -> 1 `i `uc -> -> 18 `i `us -> -> 1460 `i `us ]
+"332
+[; ;W5500.c: 332:    WriteShortW5500Socket( 1, 0x0004, S1_Port[ 0 ] * 256 + S1_Port[ 1 ] );
+[e ( _WriteShortW5500Socket (3 , , -> -> 1 `i `uc -> -> 4 `i `us -> + * -> *U + &U _S1_Port * -> -> -> 0 `i `ui `ux -> -> # *U &U _S1_Port `ui `ux `i -> 256 `i -> *U + &U _S1_Port * -> -> -> 1 `i `ui `ux -> -> # *U &U _S1_Port `ui `ux `i `us ]
+"334
+[; ;W5500.c: 334:    WriteShortW5500Socket( 1, 0x0010, S1_DPort[ 0 ] * 256 + S1_DPort[ 1 ] );
+[e ( _WriteShortW5500Socket (3 , , -> -> 1 `i `uc -> -> 16 `i `us -> + * -> *U + &U _S1_DPort * -> -> -> 0 `i `ui `ux -> -> # *U &U _S1_DPort `ui `ux `i -> 256 `i -> *U + &U _S1_DPort * -> -> -> 1 `i `ui `ux -> -> # *U &U _S1_DPort `ui `ux `i `us ]
+"336
+[; ;W5500.c: 336:    WriteDwordW5500Socket( 1, 0x000c, S1_DIP );
+[e ( _WriteDwordW5500Socket (3 , , -> -> 1 `i `uc -> -> 12 `i `us &U _S1_DIP ]
+"337
+[; ;W5500.c: 337:    break;
+[e $U 354  ]
+"339
+[; ;W5500.c: 339:   case 2:
+[e :U 358 ]
+"341
+[; ;W5500.c: 341:    WriteShortW5500Socket( 2, 0x0012, 1460 );
+[e ( _WriteShortW5500Socket (3 , , -> -> 2 `i `uc -> -> 18 `i `us -> -> 1460 `i `us ]
+"343
+[; ;W5500.c: 343:    WriteShortW5500Socket( 2, 0x0004, S2_Port[ 0 ] * 256 + S2_Port[ 1 ] );
+[e ( _WriteShortW5500Socket (3 , , -> -> 2 `i `uc -> -> 4 `i `us -> + * -> *U + &U _S2_Port * -> -> -> 0 `i `ui `ux -> -> # *U &U _S2_Port `ui `ux `i -> 256 `i -> *U + &U _S2_Port * -> -> -> 1 `i `ui `ux -> -> # *U &U _S2_Port `ui `ux `i `us ]
+"345
+[; ;W5500.c: 345:    WriteShortW5500Socket( 2, 0x0010, S2_DPort[ 0 ] * 256 + S2_DPort[ 1 ] );
+[e ( _WriteShortW5500Socket (3 , , -> -> 2 `i `uc -> -> 16 `i `us -> + * -> *U + &U _S2_DPort * -> -> -> 0 `i `ui `ux -> -> # *U &U _S2_DPort `ui `ux `i -> 256 `i -> *U + &U _S2_DPort * -> -> -> 1 `i `ui `ux -> -> # *U &U _S2_DPort `ui `ux `i `us ]
+"347
+[; ;W5500.c: 347:    WriteDwordW5500Socket( 2, 0x000c, S2_DIP );
+[e ( _WriteDwordW5500Socket (3 , , -> -> 2 `i `uc -> -> 12 `i `us &U _S2_DIP ]
+"348
+[; ;W5500.c: 348:    break;
+[e $U 354  ]
+"350
+[; ;W5500.c: 350:   case 3:
+[e :U 359 ]
+"352
+[; ;W5500.c: 352:    WriteShortW5500Socket( 3, 0x0012, 1460 );
+[e ( _WriteShortW5500Socket (3 , , -> -> 3 `i `uc -> -> 18 `i `us -> -> 1460 `i `us ]
+"354
+[; ;W5500.c: 354:    WriteShortW5500Socket( 3, 0x0004, S3_Port[ 0 ] * 256 + S3_Port[ 1 ] );
+[e ( _WriteShortW5500Socket (3 , , -> -> 3 `i `uc -> -> 4 `i `us -> + * -> *U + &U _S3_Port * -> -> -> 0 `i `ui `ux -> -> # *U &U _S3_Port `ui `ux `i -> 256 `i -> *U + &U _S3_Port * -> -> -> 1 `i `ui `ux -> -> # *U &U _S3_Port `ui `ux `i `us ]
+"356
+[; ;W5500.c: 356:    WriteShortW5500Socket( 3, 0x0010, S3_DPort[ 0 ] * 256 + S3_DPort[ 1 ] );
+[e ( _WriteShortW5500Socket (3 , , -> -> 3 `i `uc -> -> 16 `i `us -> + * -> *U + &U _S3_DPort * -> -> -> 0 `i `ui `ux -> -> # *U &U _S3_DPort `ui `ux `i -> 256 `i -> *U + &U _S3_DPort * -> -> -> 1 `i `ui `ux -> -> # *U &U _S3_DPort `ui `ux `i `us ]
+"358
+[; ;W5500.c: 358:    WriteDwordW5500Socket( 3, 0x000c, S3_DIP );
+[e ( _WriteDwordW5500Socket (3 , , -> -> 3 `i `uc -> -> 12 `i `us &U _S3_DIP ]
+"359
+[; ;W5500.c: 359:    break;
+[e $U 354  ]
+"361
+[; ;W5500.c: 361:   case 4:
+[e :U 360 ]
+"363
+[; ;W5500.c: 363:    WriteShortW5500Socket( 4, 0x0012, 1460 );
+[e ( _WriteShortW5500Socket (3 , , -> -> 4 `i `uc -> -> 18 `i `us -> -> 1460 `i `us ]
+"365
+[; ;W5500.c: 365:    WriteShortW5500Socket( 4, 0x0004, S4_Port[ 0 ] * 256 + S4_Port[ 1 ] );
+[e ( _WriteShortW5500Socket (3 , , -> -> 4 `i `uc -> -> 4 `i `us -> + * -> *U + &U _S4_Port * -> -> -> 0 `i `ui `ux -> -> # *U &U _S4_Port `ui `ux `i -> 256 `i -> *U + &U _S4_Port * -> -> -> 1 `i `ui `ux -> -> # *U &U _S4_Port `ui `ux `i `us ]
+"367
+[; ;W5500.c: 367:    WriteShortW5500Socket( 4, 0x0010, S4_DPort[ 0 ] * 256 + S4_DPort[ 1 ] );
+[e ( _WriteShortW5500Socket (3 , , -> -> 4 `i `uc -> -> 16 `i `us -> + * -> *U + &U _S4_DPort * -> -> -> 0 `i `ui `ux -> -> # *U &U _S4_DPort `ui `ux `i -> 256 `i -> *U + &U _S4_DPort * -> -> -> 1 `i `ui `ux -> -> # *U &U _S4_DPort `ui `ux `i `us ]
+"369
+[; ;W5500.c: 369:    WriteDwordW5500Socket( 4, 0x000c, S4_DIP );
+[e ( _WriteDwordW5500Socket (3 , , -> -> 4 `i `uc -> -> 12 `i `us &U _S4_DIP ]
+"370
+[; ;W5500.c: 370:    break;
+[e $U 354  ]
+"372
+[; ;W5500.c: 372:         case 5:
+[e :U 361 ]
+"374
+[; ;W5500.c: 374:    WriteShortW5500Socket( 5, 0x0012, 1460 );
+[e ( _WriteShortW5500Socket (3 , , -> -> 5 `i `uc -> -> 18 `i `us -> -> 1460 `i `us ]
+"376
+[; ;W5500.c: 376:    WriteShortW5500Socket( 5, 0x0004, S5_Port[ 0 ] * 256 + S5_Port[ 1 ] );
+[e ( _WriteShortW5500Socket (3 , , -> -> 5 `i `uc -> -> 4 `i `us -> + * -> *U + &U _S5_Port * -> -> -> 0 `i `ui `ux -> -> # *U &U _S5_Port `ui `ux `i -> 256 `i -> *U + &U _S5_Port * -> -> -> 1 `i `ui `ux -> -> # *U &U _S5_Port `ui `ux `i `us ]
+"378
+[; ;W5500.c: 378:    WriteShortW5500Socket( 5, 0x0010, S5_DPort[ 0 ] * 256 + S5_DPort[ 1 ] );
+[e ( _WriteShortW5500Socket (3 , , -> -> 5 `i `uc -> -> 16 `i `us -> + * -> *U + &U _S5_DPort * -> -> -> 0 `i `ui `ux -> -> # *U &U _S5_DPort `ui `ux `i -> 256 `i -> *U + &U _S5_DPort * -> -> -> 1 `i `ui `ux -> -> # *U &U _S5_DPort `ui `ux `i `us ]
+"380
+[; ;W5500.c: 380:    WriteDwordW5500Socket( 5, 0x000c, S5_DIP );
+[e ( _WriteDwordW5500Socket (3 , , -> -> 5 `i `uc -> -> 12 `i `us &U _S5_DIP ]
+"381
+[; ;W5500.c: 381:    break;
+[e $U 354  ]
+"383
+[; ;W5500.c: 383:   case 6:
+[e :U 362 ]
+"385
+[; ;W5500.c: 385:    WriteShortW5500Socket( 6, 0x0012, 1460 );
+[e ( _WriteShortW5500Socket (3 , , -> -> 6 `i `uc -> -> 18 `i `us -> -> 1460 `i `us ]
+"387
+[; ;W5500.c: 387:    WriteShortW5500Socket( 6, 0x0004, S6_Port[ 0 ] * 256 + S6_Port[ 1 ] );
+[e ( _WriteShortW5500Socket (3 , , -> -> 6 `i `uc -> -> 4 `i `us -> + * -> *U + &U _S6_Port * -> -> -> 0 `i `ui `ux -> -> # *U &U _S6_Port `ui `ux `i -> 256 `i -> *U + &U _S6_Port * -> -> -> 1 `i `ui `ux -> -> # *U &U _S6_Port `ui `ux `i `us ]
+"389
+[; ;W5500.c: 389:    WriteShortW5500Socket( 6, 0x0010, S6_DPort[ 0 ] * 256 + S6_DPort[ 1 ] );
+[e ( _WriteShortW5500Socket (3 , , -> -> 6 `i `uc -> -> 16 `i `us -> + * -> *U + &U _S6_DPort * -> -> -> 0 `i `ui `ux -> -> # *U &U _S6_DPort `ui `ux `i -> 256 `i -> *U + &U _S6_DPort * -> -> -> 1 `i `ui `ux -> -> # *U &U _S6_DPort `ui `ux `i `us ]
+"391
+[; ;W5500.c: 391:    WriteDwordW5500Socket( 6, 0x000c, S6_DIP );
+[e ( _WriteDwordW5500Socket (3 , , -> -> 6 `i `uc -> -> 12 `i `us &U _S6_DIP ]
+"392
+[; ;W5500.c: 392:    break;
+[e $U 354  ]
+"394
+[; ;W5500.c: 394:   case 7:
+[e :U 363 ]
+"396
+[; ;W5500.c: 396:    WriteShortW5500Socket( 7, 0x0012, 1460 );
+[e ( _WriteShortW5500Socket (3 , , -> -> 7 `i `uc -> -> 18 `i `us -> -> 1460 `i `us ]
+"398
+[; ;W5500.c: 398:    WriteShortW5500Socket( 7, 0x0004, S7_Port[ 0 ] * 256 + S7_Port[ 1 ] );
+[e ( _WriteShortW5500Socket (3 , , -> -> 7 `i `uc -> -> 4 `i `us -> + * -> *U + &U _S7_Port * -> -> -> 0 `i `ui `ux -> -> # *U &U _S7_Port `ui `ux `i -> 256 `i -> *U + &U _S7_Port * -> -> -> 1 `i `ui `ux -> -> # *U &U _S7_Port `ui `ux `i `us ]
+"400
+[; ;W5500.c: 400:    WriteShortW5500Socket( 7, 0x0010, S7_DPort[ 0 ] * 256 + S7_DPort[ 1 ] );
+[e ( _WriteShortW5500Socket (3 , , -> -> 7 `i `uc -> -> 16 `i `us -> + * -> *U + &U _S7_DPort * -> -> -> 0 `i `ui `ux -> -> # *U &U _S7_DPort `ui `ux `i -> 256 `i -> *U + &U _S7_DPort * -> -> -> 1 `i `ui `ux -> -> # *U &U _S7_DPort `ui `ux `i `us ]
+"402
+[; ;W5500.c: 402:    WriteDwordW5500Socket( 7, 0x000c, S7_DIP );
+[e ( _WriteDwordW5500Socket (3 , , -> -> 7 `i `uc -> -> 12 `i `us &U _S7_DIP ]
+"403
+[; ;W5500.c: 403:    break;
+[e $U 354  ]
+"405
+[; ;W5500.c: 405:   default:
+[e :U 364 ]
+"406
+[; ;W5500.c: 406:    break;
+[e $U 354  ]
+"407
+[; ;W5500.c: 407:  }
+}
+[e $U 354  ]
+[e :U 355 ]
+[e [\ -> _socket `i , $ -> 0 `i 356
+ , $ -> 1 `i 357
+ , $ -> 2 `i 358
+ , $ -> 3 `i 359
+ , $ -> 4 `i 360
+ , $ -> 5 `i 361
+ , $ -> 6 `i 362
+ , $ -> 7 `i 363
+ 364 ]
+[e :U 354 ]
+"408
+[; ;W5500.c: 408: }
+[e :UE 353 ]
+}
+"410
+[; ;W5500.c: 410: uint8_t SocketConnect( uint8_t socket )
+[v _SocketConnect `(uc ~T0 @X0 1 ef1`uc ]
+"411
+[; ;W5500.c: 411: {
+{
+[e :U _SocketConnect ]
+"410
+[; ;W5500.c: 410: uint8_t SocketConnect( uint8_t socket )
+[v _socket `uc ~T0 @X0 1 r1 ]
+"411
+[; ;W5500.c: 411: {
+[f ]
+"412
+[; ;W5500.c: 412:  WriteByteW5500Socket( socket, 0x0000, 0x01 );
+[e ( _WriteByteW5500Socket (3 , , _socket -> -> 0 `i `us -> -> 1 `i `uc ]
+"413
+[; ;W5500.c: 413:  WriteByteW5500Socket( socket, 0x0001, 0x01 );
+[e ( _WriteByteW5500Socket (3 , , _socket -> -> 1 `i `us -> -> 1 `i `uc ]
+"414
+[; ;W5500.c: 414:  _delay((unsigned long)((5)*(32000000UL/4000000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 32000000 `ul `d .4000000.0 `ul ]
+"415
+[; ;W5500.c: 415:  if( ReadByteW5500Socket( socket, 0x0003 ) != 0x13 )
+[e $ ! != -> ( _ReadByteW5500Socket (2 , _socket -> -> 3 `i `us `i -> 19 `i 366  ]
+"416
+[; ;W5500.c: 416:  {
+{
+"417
+[; ;W5500.c: 417:   WriteByteW5500Socket( socket, 0x0001, 0x10 );
+[e ( _WriteByteW5500Socket (3 , , _socket -> -> 1 `i `us -> -> 16 `i `uc ]
+"418
+[; ;W5500.c: 418:   return 0;
+[e ) -> -> 0 `i `uc ]
+[e $UE 365  ]
+"419
+[; ;W5500.c: 419:  }
+}
+[e :U 366 ]
+"420
+[; ;W5500.c: 420:  WriteByteW5500Socket( socket, 0x0001, 0x04 );
+[e ( _WriteByteW5500Socket (3 , , _socket -> -> 1 `i `us -> -> 4 `i `uc ]
+"421
+[; ;W5500.c: 421:  return 1;
+[e ) -> -> 1 `i `uc ]
+[e $UE 365  ]
+"422
+[; ;W5500.c: 422: }
+[e :UE 365 ]
+}
+"424
+[; ;W5500.c: 424: uint8_t SocketListen( uint8_t socket )
+[v _SocketListen `(uc ~T0 @X0 1 ef1`uc ]
+"425
+[; ;W5500.c: 425: {
+{
+[e :U _SocketListen ]
+"424
+[; ;W5500.c: 424: uint8_t SocketListen( uint8_t socket )
+[v _socket `uc ~T0 @X0 1 r1 ]
+"425
+[; ;W5500.c: 425: {
+[f ]
+"426
+[; ;W5500.c: 426:  WriteByteW5500Socket( socket, 0x0000, 0x01 );
+[e ( _WriteByteW5500Socket (3 , , _socket -> -> 0 `i `us -> -> 1 `i `uc ]
+"427
+[; ;W5500.c: 427:  WriteByteW5500Socket( socket, 0x0001,0x01 );
+[e ( _WriteByteW5500Socket (3 , , _socket -> -> 1 `i `us -> -> 1 `i `uc ]
+"428
+[; ;W5500.c: 428:  _delay((unsigned long)((5)*(32000000UL/4000000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 32000000 `ul `d .4000000.0 `ul ]
+"429
+[; ;W5500.c: 429:  if( ReadByteW5500Socket( socket, 0x0003 ) != 0x13 )
+[e $ ! != -> ( _ReadByteW5500Socket (2 , _socket -> -> 3 `i `us `i -> 19 `i 368  ]
+"430
+[; ;W5500.c: 430:  {
+{
+"431
+[; ;W5500.c: 431:   WriteByteW5500Socket( socket, 0x0001, 0x10 );
+[e ( _WriteByteW5500Socket (3 , , _socket -> -> 1 `i `us -> -> 16 `i `uc ]
+"432
+[; ;W5500.c: 432:   return 0;
+[e ) -> -> 0 `i `uc ]
+[e $UE 367  ]
+"433
+[; ;W5500.c: 433:  }
+}
+[e :U 368 ]
+"434
+[; ;W5500.c: 434:  WriteByteW5500Socket( socket, 0x0001, 0x02 );
+[e ( _WriteByteW5500Socket (3 , , _socket -> -> 1 `i `us -> -> 2 `i `uc ]
+"435
+[; ;W5500.c: 435:  _delay((unsigned long)((5)*(32000000UL/4000000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 32000000 `ul `d .4000000.0 `ul ]
+"436
+[; ;W5500.c: 436:  if( ReadByteW5500Socket( socket, 0x0003 ) != 0x14 )
+[e $ ! != -> ( _ReadByteW5500Socket (2 , _socket -> -> 3 `i `us `i -> 20 `i 369  ]
+"437
+[; ;W5500.c: 437:  {
+{
+"438
+[; ;W5500.c: 438:   WriteByteW5500Socket( socket, 0x0001, 0x10 );
+[e ( _WriteByteW5500Socket (3 , , _socket -> -> 1 `i `us -> -> 16 `i `uc ]
+"439
+[; ;W5500.c: 439:   return 0;
+[e ) -> -> 0 `i `uc ]
+[e $UE 367  ]
+"440
+[; ;W5500.c: 440:  }
+}
+[e :U 369 ]
+"441
+[; ;W5500.c: 441:  return 1;
+[e ) -> -> 1 `i `uc ]
+[e $UE 367  ]
+"442
+[; ;W5500.c: 442: }
+[e :UE 367 ]
+}
+"444
+[; ;W5500.c: 444: uint8_t SocketUDP( uint8_t socket )
+[v _SocketUDP `(uc ~T0 @X0 1 ef1`uc ]
+"445
+[; ;W5500.c: 445: {
+{
+[e :U _SocketUDP ]
+"444
+[; ;W5500.c: 444: uint8_t SocketUDP( uint8_t socket )
+[v _socket `uc ~T0 @X0 1 r1 ]
+"445
+[; ;W5500.c: 445: {
+[f ]
+"446
+[; ;W5500.c: 446:  WriteByteW5500Socket( socket, 0x0000,0x02 );
+[e ( _WriteByteW5500Socket (3 , , _socket -> -> 0 `i `us -> -> 2 `i `uc ]
+"447
+[; ;W5500.c: 447:  WriteByteW5500Socket( socket, 0x0001, 0x01 );
+[e ( _WriteByteW5500Socket (3 , , _socket -> -> 1 `i `us -> -> 1 `i `uc ]
+"448
+[; ;W5500.c: 448:  _delay((unsigned long)((5)*(32000000UL/4000000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 32000000 `ul `d .4000000.0 `ul ]
+"449
+[; ;W5500.c: 449:  if(ReadByteW5500Socket( socket, 0x0003 ) != 0x22 )
+[e $ ! != -> ( _ReadByteW5500Socket (2 , _socket -> -> 3 `i `us `i -> 34 `i 371  ]
+"450
+[; ;W5500.c: 450:  {
+{
+"451
+[; ;W5500.c: 451:   WriteByteW5500Socket( socket, 0x0001, 0x10 );
+[e ( _WriteByteW5500Socket (3 , , _socket -> -> 1 `i `us -> -> 16 `i `uc ]
+"452
+[; ;W5500.c: 452:   return 0;
+[e ) -> -> 0 `i `uc ]
+[e $UE 370  ]
+"453
+[; ;W5500.c: 453:  }
+}
+[e $U 372  ]
+"454
+[; ;W5500.c: 454:  else
+[e :U 371 ]
+"455
+[; ;W5500.c: 455:   return 1;
+[e ) -> -> 1 `i `uc ]
+[e $UE 370  ]
+[e :U 372 ]
+"456
+[; ;W5500.c: 456: }
+[e :UE 370 ]
+}
+"458
+[; ;W5500.c: 458: void InterruptW5500(void)
+[v _InterruptW5500 `(v ~T0 @X0 1 ef ]
+"459
+[; ;W5500.c: 459: {
+{
+[e :U _InterruptW5500 ]
+[f ]
+"460
+[; ;W5500.c: 460:  unsigned char i,j;
+[v _i `uc ~T0 @X0 1 a ]
+[v _j `uc ~T0 @X0 1 a ]
+"462
+[; ;W5500.c: 462:  IntDispose:
+[e :U 374 ]
+"464
+[; ;W5500.c: 464:  i = ReadW5500( 0x0017 );
+[e = _i ( _ReadW5500 (1 -> -> 23 `i `us ]
+"465
+[; ;W5500.c: 465:  _delay((unsigned long)((5)*(32000000UL/4000000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 32000000 `ul `d .4000000.0 `ul ]
+"467
+[; ;W5500.c: 467:  if( ( i & 0x01 ) == 0x01 )
+[e $ ! == & -> _i `i -> 1 `i -> 1 `i 375  ]
+"468
+[; ;W5500.c: 468:  {
+{
+"469
+[; ;W5500.c: 469:   j = ReadByteW5500Socket( 0, 0x0002 );
+[e = _j ( _ReadByteW5500Socket (2 , -> -> 0 `i `uc -> -> 2 `i `us ]
+"470
+[; ;W5500.c: 470:   WriteByteW5500Socket( 0, 0x0002, j );
+[e ( _WriteByteW5500Socket (3 , , -> -> 0 `i `uc -> -> 2 `i `us _j ]
+"471
+[; ;W5500.c: 471:   if( j & 0x01 )
+[e $ ! != & -> _j `i -> 1 `i -> 0 `i 376  ]
+"472
+[; ;W5500.c: 472:   {
+{
+"473
+[; ;W5500.c: 473:    S0_State |= 0x02;
+[e =| _S0_State -> -> 2 `i `uc ]
+"474
+[; ;W5500.c: 474:   }
+}
+[e :U 376 ]
+"475
+[; ;W5500.c: 475:   if( j & 0x02 )
+[e $ ! != & -> _j `i -> 2 `i -> 0 `i 377  ]
+"476
+[; ;W5500.c: 476:   {
+{
+"477
+[; ;W5500.c: 477:    WriteByteW5500Socket( 0, 0x0001, 0x10 );
+[e ( _WriteByteW5500Socket (3 , , -> -> 0 `i `uc -> -> 1 `i `us -> -> 16 `i `uc ]
+"478
+[; ;W5500.c: 478:    SocketInit(0);
+[e ( _SocketInit (1 -> -> 0 `i `uc ]
+"479
+[; ;W5500.c: 479:    S0_State=0;
+[e = _S0_State -> -> 0 `i `uc ]
+"480
+[; ;W5500.c: 480:   }
+}
+[e :U 377 ]
+"481
+[; ;W5500.c: 481:   if( j & 0x10 )
+[e $ ! != & -> _j `i -> 16 `i -> 0 `i 378  ]
+"482
+[; ;W5500.c: 482:   {
+{
+"483
+[; ;W5500.c: 483:    S0_Data |= 0x02;
+[e =| _S0_Data -> -> 2 `i `uc ]
+"484
+[; ;W5500.c: 484:   }
+}
+[e :U 378 ]
+"485
+[; ;W5500.c: 485:   if( j & 0x04 )
+[e $ ! != & -> _j `i -> 4 `i -> 0 `i 379  ]
+"486
+[; ;W5500.c: 486:   {
+{
+"487
+[; ;W5500.c: 487:    S0_Data |= 0x01;
+[e =| _S0_Data -> -> 1 `i `uc ]
+"488
+[; ;W5500.c: 488:   }
+}
+[e :U 379 ]
+"489
+[; ;W5500.c: 489:   if( j & 0x08 )
+[e $ ! != & -> _j `i -> 8 `i -> 0 `i 380  ]
+"490
+[; ;W5500.c: 490:   {
+{
+"491
+[; ;W5500.c: 491:    WriteByteW5500Socket( 0, 0x0001, 0x10 );
+[e ( _WriteByteW5500Socket (3 , , -> -> 0 `i `uc -> -> 1 `i `us -> -> 16 `i `uc ]
+"492
+[; ;W5500.c: 492:    S0_State=0;
+[e = _S0_State -> -> 0 `i `uc ]
+"493
+[; ;W5500.c: 493:   }
+}
+[e :U 380 ]
+"494
+[; ;W5500.c: 494:  }
+}
+[e :U 375 ]
+"496
+[; ;W5500.c: 496:  if( ( i & 0x02 ) == 0x02 )
+[e $ ! == & -> _i `i -> 2 `i -> 2 `i 381  ]
+"497
+[; ;W5500.c: 497:  {
+{
+"498
+[; ;W5500.c: 498:   j = ReadByteW5500Socket( 1, 0x0002 );
+[e = _j ( _ReadByteW5500Socket (2 , -> -> 1 `i `uc -> -> 2 `i `us ]
+"499
+[; ;W5500.c: 499:   WriteByteW5500Socket( 1, 0x0002, j );
+[e ( _WriteByteW5500Socket (3 , , -> -> 1 `i `uc -> -> 2 `i `us _j ]
+"500
+[; ;W5500.c: 500:   if( j & 0x01 )
+[e $ ! != & -> _j `i -> 1 `i -> 0 `i 382  ]
+"501
+[; ;W5500.c: 501:   {
+{
+"502
+[; ;W5500.c: 502:    S1_State |= 0x02;
+[e =| _S1_State -> -> 2 `i `uc ]
+"503
+[; ;W5500.c: 503:   }
+}
+[e :U 382 ]
+"504
+[; ;W5500.c: 504:   if( j & 0x02 )
+[e $ ! != & -> _j `i -> 2 `i -> 0 `i 383  ]
+"505
+[; ;W5500.c: 505:   {
+{
+"506
+[; ;W5500.c: 506:    WriteByteW5500Socket( 1, 0x0001, 0x10 );
+[e ( _WriteByteW5500Socket (3 , , -> -> 1 `i `uc -> -> 1 `i `us -> -> 16 `i `uc ]
+"507
+[; ;W5500.c: 507:    SocketInit(1);
+[e ( _SocketInit (1 -> -> 1 `i `uc ]
+"508
+[; ;W5500.c: 508:    S1_State=0;
+[e = _S1_State -> -> 0 `i `uc ]
+"509
+[; ;W5500.c: 509:   }
+}
+[e :U 383 ]
+"510
+[; ;W5500.c: 510:   if( j & 0x10 )
+[e $ ! != & -> _j `i -> 16 `i -> 0 `i 384  ]
+"511
+[; ;W5500.c: 511:   {
+{
+"512
+[; ;W5500.c: 512:    S1_Data |= 0x02;
+[e =| _S1_Data -> -> 2 `i `uc ]
+"513
+[; ;W5500.c: 513:   }
+}
+[e :U 384 ]
+"514
+[; ;W5500.c: 514:   if( j & 0x04 )
+[e $ ! != & -> _j `i -> 4 `i -> 0 `i 385  ]
+"515
+[; ;W5500.c: 515:   {
+{
+"516
+[; ;W5500.c: 516:    S1_Data |= 0x01;
+[e =| _S1_Data -> -> 1 `i `uc ]
+"517
+[; ;W5500.c: 517:   }
+}
+[e :U 385 ]
+"518
+[; ;W5500.c: 518:   if( j & 0x08 )
+[e $ ! != & -> _j `i -> 8 `i -> 0 `i 386  ]
+"519
+[; ;W5500.c: 519:   {
+{
+"520
+[; ;W5500.c: 520:    WriteByteW5500Socket( 1, 0x0001, 0x10 );
+[e ( _WriteByteW5500Socket (3 , , -> -> 1 `i `uc -> -> 1 `i `us -> -> 16 `i `uc ]
+"521
+[; ;W5500.c: 521:    S1_State=0;
+[e = _S1_State -> -> 0 `i `uc ]
+"522
+[; ;W5500.c: 522:   }
+}
+[e :U 386 ]
+"523
+[; ;W5500.c: 523:  }
+}
+[e :U 381 ]
+"525
+[; ;W5500.c: 525:     if( ( i & 0x04 ) == 0x04 )
+[e $ ! == & -> _i `i -> 4 `i -> 4 `i 387  ]
+"526
+[; ;W5500.c: 526:  {
+{
+"527
+[; ;W5500.c: 527:   j = ReadByteW5500Socket( 2, 0x0002 );
+[e = _j ( _ReadByteW5500Socket (2 , -> -> 2 `i `uc -> -> 2 `i `us ]
+"528
+[; ;W5500.c: 528:   WriteByteW5500Socket( 2, 0x0002, j );
+[e ( _WriteByteW5500Socket (3 , , -> -> 2 `i `uc -> -> 2 `i `us _j ]
+"529
+[; ;W5500.c: 529:   if( j & 0x01 )
+[e $ ! != & -> _j `i -> 1 `i -> 0 `i 388  ]
+"530
+[; ;W5500.c: 530:   {
+{
+"531
+[; ;W5500.c: 531:    S2_State |= 0x02;
+[e =| _S2_State -> -> 2 `i `uc ]
+"532
+[; ;W5500.c: 532:   }
+}
+[e :U 388 ]
+"533
+[; ;W5500.c: 533:   if( j & 0x02 )
+[e $ ! != & -> _j `i -> 2 `i -> 0 `i 389  ]
+"534
+[; ;W5500.c: 534:   {
+{
+"535
+[; ;W5500.c: 535:    WriteByteW5500Socket( 2, 0x0001, 0x10 );
+[e ( _WriteByteW5500Socket (3 , , -> -> 2 `i `uc -> -> 1 `i `us -> -> 16 `i `uc ]
+"536
+[; ;W5500.c: 536:    SocketInit(2);
+[e ( _SocketInit (1 -> -> 2 `i `uc ]
+"537
+[; ;W5500.c: 537:    S2_State=0;
+[e = _S2_State -> -> 0 `i `uc ]
+"538
+[; ;W5500.c: 538:   }
+}
+[e :U 389 ]
+"539
+[; ;W5500.c: 539:   if( j & 0x10 )
+[e $ ! != & -> _j `i -> 16 `i -> 0 `i 390  ]
+"540
+[; ;W5500.c: 540:   {
+{
+"541
+[; ;W5500.c: 541:    S2_Data |= 0x02;
+[e =| _S2_Data -> -> 2 `i `uc ]
+"542
+[; ;W5500.c: 542:   }
+}
+[e :U 390 ]
+"543
+[; ;W5500.c: 543:   if( j & 0x04 )
+[e $ ! != & -> _j `i -> 4 `i -> 0 `i 391  ]
+"544
+[; ;W5500.c: 544:   {
+{
+"545
+[; ;W5500.c: 545:    S2_Data |= 0x01;
+[e =| _S2_Data -> -> 1 `i `uc ]
+"546
+[; ;W5500.c: 546:   }
+}
+[e :U 391 ]
+"547
+[; ;W5500.c: 547:   if( j & 0x08 )
+[e $ ! != & -> _j `i -> 8 `i -> 0 `i 392  ]
+"548
+[; ;W5500.c: 548:   {
+{
+"549
+[; ;W5500.c: 549:    WriteByteW5500Socket( 2, 0x0001, 0x10 );
+[e ( _WriteByteW5500Socket (3 , , -> -> 2 `i `uc -> -> 1 `i `us -> -> 16 `i `uc ]
+"550
+[; ;W5500.c: 550:    S2_State=0;
+[e = _S2_State -> -> 0 `i `uc ]
+"551
+[; ;W5500.c: 551:   }
+}
+[e :U 392 ]
+"552
+[; ;W5500.c: 552:     }
+}
+[e :U 387 ]
+"554
+[; ;W5500.c: 554:     if( ( i & 0x08 ) == 0x08 )
+[e $ ! == & -> _i `i -> 8 `i -> 8 `i 393  ]
+"555
+[; ;W5500.c: 555:  {
+{
+"556
+[; ;W5500.c: 556:   j = ReadByteW5500Socket( 3, 0x0002 );
+[e = _j ( _ReadByteW5500Socket (2 , -> -> 3 `i `uc -> -> 2 `i `us ]
+"557
+[; ;W5500.c: 557:   WriteByteW5500Socket( 3, 0x0002, j );
+[e ( _WriteByteW5500Socket (3 , , -> -> 3 `i `uc -> -> 2 `i `us _j ]
+"558
+[; ;W5500.c: 558:   if( j & 0x01 )
+[e $ ! != & -> _j `i -> 1 `i -> 0 `i 394  ]
+"559
+[; ;W5500.c: 559:   {
+{
+"560
+[; ;W5500.c: 560:    S3_State |= 0x02;
+[e =| _S3_State -> -> 2 `i `uc ]
+"561
+[; ;W5500.c: 561:   }
+}
+[e :U 394 ]
+"562
+[; ;W5500.c: 562:   if( j & 0x02 )
+[e $ ! != & -> _j `i -> 2 `i -> 0 `i 395  ]
+"563
+[; ;W5500.c: 563:   {
+{
+"564
+[; ;W5500.c: 564:    WriteByteW5500Socket( 3, 0x0001, 0x10 );
+[e ( _WriteByteW5500Socket (3 , , -> -> 3 `i `uc -> -> 1 `i `us -> -> 16 `i `uc ]
+"565
+[; ;W5500.c: 565:    SocketInit(3);
+[e ( _SocketInit (1 -> -> 3 `i `uc ]
+"566
+[; ;W5500.c: 566:    S3_State=0;
+[e = _S3_State -> -> 0 `i `uc ]
+"567
+[; ;W5500.c: 567:   }
+}
+[e :U 395 ]
+"568
+[; ;W5500.c: 568:   if( j & 0x10 )
+[e $ ! != & -> _j `i -> 16 `i -> 0 `i 396  ]
+"569
+[; ;W5500.c: 569:   {
+{
+"570
+[; ;W5500.c: 570:    S3_Data |= 0x02;
+[e =| _S3_Data -> -> 2 `i `uc ]
+"571
+[; ;W5500.c: 571:   }
+}
+[e :U 396 ]
+"572
+[; ;W5500.c: 572:   if( j & 0x04 )
+[e $ ! != & -> _j `i -> 4 `i -> 0 `i 397  ]
+"573
+[; ;W5500.c: 573:   {
+{
+"574
+[; ;W5500.c: 574:    S3_Data |= 0x01;
+[e =| _S3_Data -> -> 1 `i `uc ]
+"575
+[; ;W5500.c: 575:   }
+}
+[e :U 397 ]
+"576
+[; ;W5500.c: 576:   if( j & 0x08 )
+[e $ ! != & -> _j `i -> 8 `i -> 0 `i 398  ]
+"577
+[; ;W5500.c: 577:   {
+{
+"578
+[; ;W5500.c: 578:    WriteByteW5500Socket( 3, 0x0001, 0x10 );
+[e ( _WriteByteW5500Socket (3 , , -> -> 3 `i `uc -> -> 1 `i `us -> -> 16 `i `uc ]
+"579
+[; ;W5500.c: 579:    S3_State=0;
+[e = _S3_State -> -> 0 `i `uc ]
+"580
+[; ;W5500.c: 580:   }
+}
+[e :U 398 ]
+"581
+[; ;W5500.c: 581:  }
+}
+[e :U 393 ]
+"583
+[; ;W5500.c: 583:     if( ( i & 0x10 ) == 0x10 )
+[e $ ! == & -> _i `i -> 16 `i -> 16 `i 399  ]
+"584
+[; ;W5500.c: 584:  {
+{
+"585
+[; ;W5500.c: 585:   j = ReadByteW5500Socket( 4, 0x0002 );
+[e = _j ( _ReadByteW5500Socket (2 , -> -> 4 `i `uc -> -> 2 `i `us ]
+"586
+[; ;W5500.c: 586:   WriteByteW5500Socket( 4, 0x0002, j );
+[e ( _WriteByteW5500Socket (3 , , -> -> 4 `i `uc -> -> 2 `i `us _j ]
+"587
+[; ;W5500.c: 587:   if( j & 0x01 )
+[e $ ! != & -> _j `i -> 1 `i -> 0 `i 400  ]
+"588
+[; ;W5500.c: 588:   {
+{
+"589
+[; ;W5500.c: 589:    S4_State |= 0x02;
+[e =| _S4_State -> -> 2 `i `uc ]
+"590
+[; ;W5500.c: 590:   }
+}
+[e :U 400 ]
+"591
+[; ;W5500.c: 591:   if( j & 0x02 )
+[e $ ! != & -> _j `i -> 2 `i -> 0 `i 401  ]
+"592
+[; ;W5500.c: 592:   {
+{
+"593
+[; ;W5500.c: 593:    WriteByteW5500Socket( 4, 0x0001, 0x10 );
+[e ( _WriteByteW5500Socket (3 , , -> -> 4 `i `uc -> -> 1 `i `us -> -> 16 `i `uc ]
+"594
+[; ;W5500.c: 594:    SocketInit(4);
+[e ( _SocketInit (1 -> -> 4 `i `uc ]
+"595
+[; ;W5500.c: 595:    S4_State=0;
+[e = _S4_State -> -> 0 `i `uc ]
+"596
+[; ;W5500.c: 596:   }
+}
+[e :U 401 ]
+"597
+[; ;W5500.c: 597:   if( j & 0x10 )
+[e $ ! != & -> _j `i -> 16 `i -> 0 `i 402  ]
+"598
+[; ;W5500.c: 598:   {
+{
+"599
+[; ;W5500.c: 599:    S4_Data |= 0x02;
+[e =| _S4_Data -> -> 2 `i `uc ]
+"600
+[; ;W5500.c: 600:   }
+}
+[e :U 402 ]
+"601
+[; ;W5500.c: 601:   if( j & 0x04 )
+[e $ ! != & -> _j `i -> 4 `i -> 0 `i 403  ]
+"602
+[; ;W5500.c: 602:   {
+{
+"603
+[; ;W5500.c: 603:    S4_Data |= 0x01;
+[e =| _S4_Data -> -> 1 `i `uc ]
+"604
+[; ;W5500.c: 604:   }
+}
+[e :U 403 ]
+"605
+[; ;W5500.c: 605:   if( j & 0x08 )
+[e $ ! != & -> _j `i -> 8 `i -> 0 `i 404  ]
+"606
+[; ;W5500.c: 606:   {
+{
+"607
+[; ;W5500.c: 607:    WriteByteW5500Socket( 4, 0x0001, 0x10 );
+[e ( _WriteByteW5500Socket (3 , , -> -> 4 `i `uc -> -> 1 `i `us -> -> 16 `i `uc ]
+"608
+[; ;W5500.c: 608:    S4_State=0;
+[e = _S4_State -> -> 0 `i `uc ]
+"609
+[; ;W5500.c: 609:   }
+}
+[e :U 404 ]
+"610
+[; ;W5500.c: 610:  }
+}
+[e :U 399 ]
+"612
+[; ;W5500.c: 612:     if( ( i & 0x20 ) == 0x20 )
+[e $ ! == & -> _i `i -> 32 `i -> 32 `i 405  ]
+"613
+[; ;W5500.c: 613:  {
+{
+"614
+[; ;W5500.c: 614:   j = ReadByteW5500Socket( 5, 0x0002 );
+[e = _j ( _ReadByteW5500Socket (2 , -> -> 5 `i `uc -> -> 2 `i `us ]
+"615
+[; ;W5500.c: 615:   WriteByteW5500Socket( 5, 0x0002, j );
+[e ( _WriteByteW5500Socket (3 , , -> -> 5 `i `uc -> -> 2 `i `us _j ]
+"616
+[; ;W5500.c: 616:   if( j & 0x01 )
+[e $ ! != & -> _j `i -> 1 `i -> 0 `i 406  ]
+"617
+[; ;W5500.c: 617:   {
+{
+"618
+[; ;W5500.c: 618:    S5_State |= 0x02;
+[e =| _S5_State -> -> 2 `i `uc ]
+"619
+[; ;W5500.c: 619:   }
+}
+[e :U 406 ]
+"620
+[; ;W5500.c: 620:   if( j & 0x02 )
+[e $ ! != & -> _j `i -> 2 `i -> 0 `i 407  ]
+"621
+[; ;W5500.c: 621:   {
+{
+"622
+[; ;W5500.c: 622:    WriteByteW5500Socket( 5, 0x0001, 0x10 );
+[e ( _WriteByteW5500Socket (3 , , -> -> 5 `i `uc -> -> 1 `i `us -> -> 16 `i `uc ]
+"623
+[; ;W5500.c: 623:    SocketInit(5);
+[e ( _SocketInit (1 -> -> 5 `i `uc ]
+"624
+[; ;W5500.c: 624:    S5_State=0;
+[e = _S5_State -> -> 0 `i `uc ]
+"625
+[; ;W5500.c: 625:   }
+}
+[e :U 407 ]
+"626
+[; ;W5500.c: 626:   if( j & 0x10 )
+[e $ ! != & -> _j `i -> 16 `i -> 0 `i 408  ]
+"627
+[; ;W5500.c: 627:   {
+{
+"628
+[; ;W5500.c: 628:    S5_Data |= 0x02;
+[e =| _S5_Data -> -> 2 `i `uc ]
+"629
+[; ;W5500.c: 629:   }
+}
+[e :U 408 ]
+"630
+[; ;W5500.c: 630:   if( j & 0x04 )
+[e $ ! != & -> _j `i -> 4 `i -> 0 `i 409  ]
+"631
+[; ;W5500.c: 631:   {
+{
+"632
+[; ;W5500.c: 632:    S5_Data |= 0x01;
+[e =| _S5_Data -> -> 1 `i `uc ]
+"633
+[; ;W5500.c: 633:   }
+}
+[e :U 409 ]
+"634
+[; ;W5500.c: 634:   if( j & 0x08 )
+[e $ ! != & -> _j `i -> 8 `i -> 0 `i 410  ]
+"635
+[; ;W5500.c: 635:   {
+{
+"636
+[; ;W5500.c: 636:    WriteByteW5500Socket( 5, 0x0001, 0x10 );
+[e ( _WriteByteW5500Socket (3 , , -> -> 5 `i `uc -> -> 1 `i `us -> -> 16 `i `uc ]
+"637
+[; ;W5500.c: 637:    S5_State=0;
+[e = _S5_State -> -> 0 `i `uc ]
+"638
+[; ;W5500.c: 638:   }
+}
+[e :U 410 ]
+"639
+[; ;W5500.c: 639:  }
+}
+[e :U 405 ]
+"641
+[; ;W5500.c: 641:     if( ( i & 0x40 ) == 0x40 )
+[e $ ! == & -> _i `i -> 64 `i -> 64 `i 411  ]
+"642
+[; ;W5500.c: 642:  {
+{
+"643
+[; ;W5500.c: 643:   j = ReadByteW5500Socket( 6, 0x0002 );
+[e = _j ( _ReadByteW5500Socket (2 , -> -> 6 `i `uc -> -> 2 `i `us ]
+"644
+[; ;W5500.c: 644:   WriteByteW5500Socket( 6, 0x0002, j );
+[e ( _WriteByteW5500Socket (3 , , -> -> 6 `i `uc -> -> 2 `i `us _j ]
+"645
+[; ;W5500.c: 645:   if( j & 0x01 )
+[e $ ! != & -> _j `i -> 1 `i -> 0 `i 412  ]
+"646
+[; ;W5500.c: 646:   {
+{
+"647
+[; ;W5500.c: 647:    S6_State |= 0x02;
+[e =| _S6_State -> -> 2 `i `uc ]
+"648
+[; ;W5500.c: 648:   }
+}
+[e :U 412 ]
+"649
+[; ;W5500.c: 649:   if( j & 0x02 )
+[e $ ! != & -> _j `i -> 2 `i -> 0 `i 413  ]
+"650
+[; ;W5500.c: 650:   {
+{
+"651
+[; ;W5500.c: 651:    WriteByteW5500Socket( 6, 0x0001, 0x10 );
+[e ( _WriteByteW5500Socket (3 , , -> -> 6 `i `uc -> -> 1 `i `us -> -> 16 `i `uc ]
+"652
+[; ;W5500.c: 652:    SocketInit(6);
+[e ( _SocketInit (1 -> -> 6 `i `uc ]
+"653
+[; ;W5500.c: 653:    S6_State=0;
+[e = _S6_State -> -> 0 `i `uc ]
+"654
+[; ;W5500.c: 654:   }
+}
+[e :U 413 ]
+"655
+[; ;W5500.c: 655:   if( j & 0x10 )
+[e $ ! != & -> _j `i -> 16 `i -> 0 `i 414  ]
+"656
+[; ;W5500.c: 656:   {
+{
+"657
+[; ;W5500.c: 657:    S6_Data |= 0x02;
+[e =| _S6_Data -> -> 2 `i `uc ]
+"658
+[; ;W5500.c: 658:   }
+}
+[e :U 414 ]
+"659
+[; ;W5500.c: 659:   if( j & 0x04 )
+[e $ ! != & -> _j `i -> 4 `i -> 0 `i 415  ]
+"660
+[; ;W5500.c: 660:   {
+{
+"661
+[; ;W5500.c: 661:    S6_Data |= 0x01;
+[e =| _S6_Data -> -> 1 `i `uc ]
+"662
+[; ;W5500.c: 662:   }
+}
+[e :U 415 ]
+"663
+[; ;W5500.c: 663:   if( j & 0x08 )
+[e $ ! != & -> _j `i -> 8 `i -> 0 `i 416  ]
+"664
+[; ;W5500.c: 664:   {
+{
+"665
+[; ;W5500.c: 665:    WriteByteW5500Socket( 6, 0x0001, 0x10 );
+[e ( _WriteByteW5500Socket (3 , , -> -> 6 `i `uc -> -> 1 `i `us -> -> 16 `i `uc ]
+"666
+[; ;W5500.c: 666:    S6_State=0;
+[e = _S6_State -> -> 0 `i `uc ]
+"667
+[; ;W5500.c: 667:   }
+}
+[e :U 416 ]
+"668
+[; ;W5500.c: 668:  }
+}
+[e :U 411 ]
+"670
+[; ;W5500.c: 670:     if( ( i & 0x80 ) == 0x80 )
+[e $ ! == & -> _i `i -> 128 `i -> 128 `i 417  ]
+"671
+[; ;W5500.c: 671:  {
+{
+"672
+[; ;W5500.c: 672:   j = ReadByteW5500Socket( 7, 0x0002 );
+[e = _j ( _ReadByteW5500Socket (2 , -> -> 7 `i `uc -> -> 2 `i `us ]
+"673
+[; ;W5500.c: 673:   WriteByteW5500Socket( 7, 0x0002, j );
+[e ( _WriteByteW5500Socket (3 , , -> -> 7 `i `uc -> -> 2 `i `us _j ]
+"674
+[; ;W5500.c: 674:   if( j & 0x01 )
+[e $ ! != & -> _j `i -> 1 `i -> 0 `i 418  ]
+"675
+[; ;W5500.c: 675:   {
+{
+"676
+[; ;W5500.c: 676:    S7_State |= 0x02;
+[e =| _S7_State -> -> 2 `i `uc ]
+"677
+[; ;W5500.c: 677:   }
+}
+[e :U 418 ]
+"678
+[; ;W5500.c: 678:   if( j & 0x02 )
+[e $ ! != & -> _j `i -> 2 `i -> 0 `i 419  ]
+"679
+[; ;W5500.c: 679:   {
+{
+"680
+[; ;W5500.c: 680:    WriteByteW5500Socket( 7, 0x0001, 0x10 );
+[e ( _WriteByteW5500Socket (3 , , -> -> 7 `i `uc -> -> 1 `i `us -> -> 16 `i `uc ]
+"681
+[; ;W5500.c: 681:    SocketInit(7);
+[e ( _SocketInit (1 -> -> 7 `i `uc ]
+"682
+[; ;W5500.c: 682:    S7_State=0;
+[e = _S7_State -> -> 0 `i `uc ]
+"683
+[; ;W5500.c: 683:   }
+}
+[e :U 419 ]
+"684
+[; ;W5500.c: 684:   if( j & 0x10 )
+[e $ ! != & -> _j `i -> 16 `i -> 0 `i 420  ]
+"685
+[; ;W5500.c: 685:   {
+{
+"686
+[; ;W5500.c: 686:    S7_Data |= 0x02;
+[e =| _S7_Data -> -> 2 `i `uc ]
+"687
+[; ;W5500.c: 687:   }
+}
+[e :U 420 ]
+"688
+[; ;W5500.c: 688:   if( j & 0x04 )
+[e $ ! != & -> _j `i -> 4 `i -> 0 `i 421  ]
+"689
+[; ;W5500.c: 689:   {
+{
+"690
+[; ;W5500.c: 690:    S7_Data |= 0x01;
+[e =| _S7_Data -> -> 1 `i `uc ]
+"691
+[; ;W5500.c: 691:   }
+}
+[e :U 421 ]
+"692
+[; ;W5500.c: 692:   if( j & 0x08 )
+[e $ ! != & -> _j `i -> 8 `i -> 0 `i 422  ]
+"693
+[; ;W5500.c: 693:   {
+{
+"694
+[; ;W5500.c: 694:    WriteByteW5500Socket( 7, 0x0001, 0x10 );
+[e ( _WriteByteW5500Socket (3 , , -> -> 7 `i `uc -> -> 1 `i `us -> -> 16 `i `uc ]
+"695
+[; ;W5500.c: 695:    S7_State=0;
+[e = _S7_State -> -> 0 `i `uc ]
+"696
+[; ;W5500.c: 696:   }
+}
+[e :U 422 ]
+"697
+[; ;W5500.c: 697:  }
+}
+[e :U 417 ]
+"699
+[; ;W5500.c: 699:  if( ReadW5500( 0x0017 ) != 0 )
+[e $ ! != -> ( _ReadW5500 (1 -> -> 23 `i `us `i -> 0 `i 423  ]
+"700
+[; ;W5500.c: 700:   goto IntDispose;
+[e $U 374  ]
+[e :U 423 ]
+"701
+[; ;W5500.c: 701: }
+[e :UE 373 ]
+}
+"704
+[; ;W5500.c: 704: void CloseW5500(){
+[v _CloseW5500 `(v ~T0 @X0 1 ef ]
+{
+[e :U _CloseW5500 ]
+[f ]
+"706
+[; ;W5500.c: 706:     TRISDbits.TRISD0 = 0;
+[e = . . _TRISDbits 0 0 -> -> 0 `i `uc ]
+"707
+[; ;W5500.c: 707:     TRISDbits.TRISD1 = 0;
+[e = . . _TRISDbits 0 1 -> -> 0 `i `uc ]
+"708
+[; ;W5500.c: 708:     TRISDbits.TRISD2 = 0;
+[e = . . _TRISDbits 0 2 -> -> 0 `i `uc ]
+"709
+[; ;W5500.c: 709:     TRISDbits.TRISD3 = 0;
+[e = . . _TRISDbits 0 3 -> -> 0 `i `uc ]
+"710
+[; ;W5500.c: 710:     TRISDbits.TRISD4 = 0;
+[e = . . _TRISDbits 0 4 -> -> 0 `i `uc ]
+"711
+[; ;W5500.c: 711:     TRISDbits.TRISD5 = 0;
+[e = . . _TRISDbits 0 5 -> -> 0 `i `uc ]
+"712
+[; ;W5500.c: 712:     PORTDbits.RD0 = 0;
+[e = . . _PORTDbits 0 0 -> -> 0 `i `uc ]
+"713
+[; ;W5500.c: 713:     PORTDbits.RD1 = 0;
+[e = . . _PORTDbits 0 1 -> -> 0 `i `uc ]
+"714
+[; ;W5500.c: 714:     PORTDbits.RD2 = 0;
+[e = . . _PORTDbits 0 2 -> -> 0 `i `uc ]
+"715
+[; ;W5500.c: 715:     PORTDbits.RD3 = 0;
+[e = . . _PORTDbits 0 3 -> -> 0 `i `uc ]
+"716
+[; ;W5500.c: 716:     PORTDbits.RD4 = 0;
+[e = . . _PORTDbits 0 4 -> -> 0 `i `uc ]
+"717
+[; ;W5500.c: 717:     PORTDbits.RD5 = 0;
+[e = . . _PORTDbits 0 5 -> -> 0 `i `uc ]
+"719
+[; ;W5500.c: 719: }
+[e :UE 424 ]
+}
